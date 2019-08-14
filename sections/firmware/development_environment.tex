@@ -1,0 +1,25 @@
+\subsection{Development Environment}
+\label{subsec:dev_envir}
+Die Firmware der Wetterstation wurde im AtmelStudio 7 der Atmel Corp. und der Arduino IDE geschrieben. Die Arduino IDE wurde hauptsächlich verwendet, um notwendige Librarys über dessen \textit{Library Manager} hinzuzufügen. Dies war besonders für die Sensoren BME280 und TSL2561, sowie für die RTC DS3231 und das Schreiben/Lesen der $\mu$SD-Karte notwendig. Anschliessend konnte das gesamte Projekt ins AtmelStudio importiert werden. Grund für diese Importierung ist, dass über AtmelStudio ein ISP (In-System-Programmer) verwendet werden kann. Dies ist mit der Arduino IDE nicht möglich. Der Vorteil bei der Verwendung eines ISP's liegt darin, dass der Mikrocontroller auch nach dem Einbetten in die Hardware programmierbar bleibt. Das Programm wurde in der C/C++ Syntax objektorientiert geschrieben und aufgebaut, somit ist die Firmware der Wetterstation skalierbarer und übersichtlicher.\\
+
+Zur Übersicht der verwendeten Toolchain dient die Tabelle \ref{tab:toolchain}. Zusätzlich sind auch die Downloadlinks der aktuellen Versionen darin enthalten. Die gesamte Toolchain ist als Freeware erhältlich.\\
+
+\begin{table}[h]
+\renewcommand{\arraystretch}{1.5}
+\centering
+\caption{Toolchain}
+\label{tab:toolchain}
+\begin{tabular}{llp{8cm}}
+\toprule 
+\textbf{Programm} & \textbf{Version} & \textbf{Link} \\ 
+\toprule 
+AtmelStudio 7 & 7.0.1645 & \url{https://www.microchip.com/mplab/avr-support/atmel-studio-7} \\ 
+\hline 
+Arduino IDE & 1.8.5 & \url{https://www.arduino.cc/en/main/software} \\ 
+\hline 
+PuTTY & 0.71 & \url{https://www.putty.org/} \\ 
+\bottomrule 
+\end{tabular} 
+\end{table}
+
+\input{sections/firmware/development_environment/isp}

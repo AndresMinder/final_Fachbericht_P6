@@ -1,0 +1,147 @@
+\documentclass[final]{fhnwreport}       %[mode] = draft or final
+                                        %{class} = fhnwreport, article, 
+                                        %          report, book, beamer, standalone
+\input{header}			                %loads all packages, definitions and settings	
+
+									
+\title{\Huge{\textbf{Wetterstation mit Solar Energie}}\\}          %Project Title
+\author{\huge{Bachelor Diplomarbeit 2019}}          %Document Type => Technical Report, ...
+\date{Brugg/Windisch, \today}             %Place and Date
+%%%%%%%%richtigerTeil%%%%%%%
+\begin{document}
+
+%%---TITLEPAGE---------------------------------------------------------------------------
+\selectlanguage{ngerman}                %ngerman or english
+\maketitle
+%\vspace*{-1cm}
+\vspace*{-0.5cm}						    %compensates the space after the date line.
+\vfill
+\begin{figure}[H]
+\centering
+%\includegraphics[width=\linewidth]{Titelbild.jpg}
+\end{figure}
+\vfill
+
+{
+\renewcommand\arraystretch{2}
+\begin{center}
+\begin{tabular}{p{4cm} l}
+\textbf{Hochschule}				&	Hochschule für Technik - FHNW\\
+\textbf{Studiengang}			&	Elektro- und Informationstechnik\\
+\textbf{Autoren}				&	Mischa Knupfer, Andres Minder\\
+\textbf{Auftraggeber}			&	Prof. Dr. Taoufik Nouri\\
+\textbf{Experte}				&	Patrick Strittmatter\\
+\textbf{Betreuer}				&	Prof. Dr. Taoufik Nouri\\
+\textbf{Version}				&	2.1 %Normally not used!
+\end{tabular}
+\end{center}
+}
+
+\clearpage
+			
+%%---ABSTRACT----------------------------------------------------------------------------
+\selectlanguage{english}				%ngerman or english
+%\thispagestyle{empty}
+\pagenumbering{Roman}
+\include{sections/abstract}
+
+%%---TABLE OF CONTENTS-------------------------------------------------------------------
+\selectlanguage{ngerman}				%ngerman or english
+\tableofcontents
+\clearpage
+
+%%---TEXT--------------------------------------------------------------------------------
+\pagenumbering{arabic}
+
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{4cm}
+\begin{center}
+	\section{Einleitung}
+	\label{sec:EinleitenderTeil}
+\end{center}
+\newpage
+\include{sections/einleitung/einleitung}
+\include{sections/einleitung/auftragsbeschreibung}
+\include{sections/einleitung/ziele}
+\include{sections/einleitung/Konzept/konzept}
+
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{4cm}
+\begin{center}
+	\section{Firmware}
+	\label{sec:Firmware}
+\end{center}
+\newpage
+\include{sections/firmware/development_environment}
+\include{sections/firmware/uml}
+\include{sections/firmware/validierung_firmware}
+\include{sections/firmware/manual}
+
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{4cm}
+\begin{center}
+	\section{Hardware}
+	\label{sec:Hardware}
+\end{center}
+\newpage
+\include{sections/hardware/Uebersicht}
+\include{sections/hardware/MCU}
+\include{sections/hardware/RTC}
+\include{sections/hardware/Sensoren}
+\include{sections/hardware/Datenspeicherung}
+\include{sections/hardware/Kommunikationsmodule}
+\include{sections/hardware/Energieversorgung}
+\include{sections/hardware/PCB}
+\include{sections/hardware/Gehaeuse}
+
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{4cm}
+\begin{center}
+	\section{Abschluss}
+	\label{sec:Abschluss}
+\end{center}
+\newpage
+\include{sections/abschluss/Konzeptvalidierung}
+\include{sections/abschluss/Schluss}
+
+\newpage
+
+
+\include{sections/Authentizitaetserklaerung}
+%%---BIBLIOGRAPHY------------------------------------------------------------------------
+%\section{Referenzen}
+{\sloppypar
+\printbibliography[heading=bibintoc]
+\label{sec:lit}
+%\selectlanguage{english}				%ngerman or english
+%\printbibliography[heading=bibintoc]
+}
+
+\listoftables
+\listoffigures
+%%---APPENDIX----------------------------------------------------------------------------
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{4cm}
+\begin{center}
+	\section*{Anhang}
+	\label{sec:Anhang}
+	\addcontentsline{toc}{section}{Anhang}
+\end{center}
+\newpage
+\include{sections/appendix}
+
+%%---NOTES for DEBUG---------------------------------------------------------------------
+\ifdraft{%Do this only if mode=draft
+%%requires \usepackage{todonotes})
+\newpage
+\listoftodos[\section{Todo-Notes}]
+\clearpage
+}
+{%Do this only if mode=final
+}
+\end{document}

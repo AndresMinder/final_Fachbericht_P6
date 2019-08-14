@@ -1,0 +1,19 @@
+\subsection{Konzept}
+\label{subsec:Konzept}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{graphics/Konzeptdiagramme/Grundkonzept.PNG}	
+	\caption{Konzeptionelle Übersicht}
+	\label{fig:grundkonzept}
+\end{figure}
+
+Das Gesamtkonzept ist, wie in der Abbildung \ref{fig:grundkonzept} grafisch dargestellt, modular aufgebaut. Die gestrichelte Linie beschreibt die Systemgrenze der Wetterstation. Als Zentralrecheneinheit wird eine \textit{Micro-Controller-Unit (MCU)} verwendet. Diese ist dafür verantwortlich, dass die Daten richtig verarbeitet und an die entsprechenden Module weitergeleitet werden. Die Messdaten werden in digitaler Form über das I$^{2}$C-Interface vom Modul \textit{Sensoren} an die \textit{MCU} übertragen. Über die RJ-11 Anschlüsse werden analoge Signale übermittelt. Dieser fügt mit dem \textit{Real-Time-Clock (RTC)} einen Timestamp hinzu, wobei anschließend die Daten in der \textit{Datenspeicherung} nichtflüchtig gespeichert werden. Über das \textit{Kommunikationsmodul} können dann die Daten von Nutznießern abgefragt werden.\\
+
+\newpage
+
+\input{sections/einleitung/Konzept/Subsubsections/Sensoren}
+\input{sections/einleitung/Konzept/Subsubsections/RTC}
+\input{sections/einleitung/Konzept/Subsubsections/Datenspeicherung}
+\input{sections/einleitung/Konzept/Subsubsections/Kommunikationsmodul}
+\newpage
+\input{sections/einleitung/Konzept/Subsubsections/Energieversorgung}

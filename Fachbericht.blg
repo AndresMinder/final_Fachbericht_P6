@@ -1,0 +1,26 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'Fachbericht.blg'
+[68] biber-MSWIN64:313> INFO - === 
+[99] Biber.pm:371> INFO - Reading 'Fachbericht.bcf'
+[196] Biber.pm:857> INFO - Found 23 citekeys in bib section 0
+[213] Biber.pm:3976> INFO - Processing section 0
+[228] Biber.pm:4136> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
+[242] bibtex.pm:1500> INFO - LaTeX decoding ...
+[286] bibtex.pm:1316> INFO - Found BibTeX data source 'literature/bibliography.bib'
+[328] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'arduinoMega' is not an integer - this will probably not sort properly.
+[337] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'DS3231DS'
+[345] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'AmazonAnemometer' is not an integer - this will probably not sort properly.
+[353] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'ADSkeineAngabe' is not an integer - this will probably not sort properly.
+[356] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'windrichtungsgeber' is not an integer - this will probably not sort properly.
+[360] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'Bosch2019'
+[372] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'musdkarte' is not an integer - this will probably not sort properly.
+[376] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'muSDspez' is not an integer - this will probably not sort properly.
+[406] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Anders\AppData\Local\Temp\zy88KgUQdw\bibliography.bib_3800.utf8, line 119, warning: 11 characters of junk seen at toplevel
+[407] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Anders\AppData\Local\Temp\zy88KgUQdw\bibliography.bib_3800.utf8, line 157, warning: 255 characters of junk seen at toplevel
+[430] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[430] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[430] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[430] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[451] bbl.pm:617> INFO - Writing 'Fachbericht.bbl' with encoding 'UTF-8'
+[458] bbl.pm:720> INFO - Output to Fachbericht.bbl
+[462] Biber.pm:110> INFO - WARNINGS: 10

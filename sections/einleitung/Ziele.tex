@@ -1,0 +1,79 @@
+\begin{landscape}
+\subsection{Ziele}
+\label{subsec:Ziele}
+Die Ziele sind strikt aufgeteilt in die zwei Projekte 5 und 6. Darin enthalten sind die jeweiligen zu erreichenden Muss- und Wunschziele mit ihren quantifizierten Spezifikationen.
+
+\subsubsection{Projekt 5}
+\label{subsubsec:Projekt5}
+\begin{table}[h]
+  \centering
+  \caption{Ziele P5}
+    \begin{tabular}{r|l|r|l|l}
+          & \textbf{Ziel} & \multicolumn{1}{l|}{\textbf{Messbereiche}} & \textbf{Genauigkeiten} & \textbf{Einheiten} \\
+    \toprule
+    \multicolumn{1}{l}{\textbf{Mussziele}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} &  \\
+    \toprule
+    \multicolumn{1}{l|}{Sensoren} & Lufttemperaturmessung & \multicolumn{1}{l|}{[-20;60]} & $\pm$ 1 & $^\circ$C \\
+\cline{2-5}          & Windgeschwindigkeitsmessung & \multicolumn{1}{l|}{[10;25]} & $\pm$ 1   & m/s \\
+\cline{2-5} & Niederschlagsmenge &   Wasser    & $\pm$ 100 & ml/m$^2$ \\
+    \hline
+    \multicolumn{1}{l|}{Datenspeicherung} & Datenabfrage via PuTTY &   $\geq$ 9600    &       &  Bd/s\\
+    \hline
+    \multicolumn{1}{l|}{RTC} & Implementation &   Echtzeit    & $\pm$ 1   & s/Jahr \\
+\bottomrule
+\multicolumn{1}{l}{\textbf{Wunschziele}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} &  \\
+    \toprule
+    \multicolumn{1}{l|}{Sensoren} & Sonnenstunden Prototyp &   Echtzeit    &       & s \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:ZieleP5}%
+\end{table}%
+
+Tabelle \ref{tab:ZieleP5} zeigt diverse Ziele im P5, unterteilt in Muss- und Wunschziele. Zu den Musszielen gehören die Lufttemperaturmessung, die Windgeschwindigkeitsmessung, die Niederschlagsmessung, die Implementation des RTC und die mögliche Datenabfrage via PuTTY vom Datenspeicher ($\mu$SD-Karte). Die Lufttemperatur soll zwischen -20 bis 60 $^\circ$C mit einer Genauigkeit von $\pm$1 $^\circ$C ermittelbar sein. Die Windgeschwindigkeitsmessung soll vor allem stärkere Windgeschwindigkeiten erfassen, um vor Sturm warnen zu können. Deshalb können niedrigere Windgeschwindigkeiten vernachlässigt werden. Die Windgeschwindigkeit sollte zwischen 10 und 25 m/s auf $\pm$1 m/s genau gemessen werden. Zusätzlich wird die Stärke der Windgeschwindigkeit in der Beaufortskala zugeordnet. Die Niederschlagsmenge wird nur für Regenwasser bestimmt, mit einer Genauigkeit von $\pm$100 ml/m$^2$. Andere Niederschlagstypen wie Hagel oder Schnee werden nicht berücksichtigt.\\
+
+\newpage
+
+\subsubsection{Projekt 6}
+\label{subsubsec:Projekt6}
+
+\begin{table}[h]
+  \centering
+  \renewcommand{\arraystretch}{1.1} %Angepasst da sonst neue Seite
+  \caption{Ziele P6}
+    \begin{tabular}{l|l|l|r|r}
+          & \textbf{Ziel} & \multicolumn{1}{l|}{\textbf{Spezifikation}} & \multicolumn{1}{l|}{\textbf{Genauigkeit}} & \multicolumn{1}{l}{\textbf{Einheit}} \\
+    \toprule
+    \multicolumn{1}{l}{\textbf{Mussziele}} & \multicolumn{4}{r}{} \\
+    \toprule
+  \multirow{3}{*}{Speisung} & Akkulaufzeit & \multicolumn{1}{r|}{$\geq$\,100} &   & h \\
+    \cline{2-5}  & Mittels DC-Ladekabel ladbar &      5.5 / 2.1mm DC-Stecker &       &  \\
+	\cline{2-5}           & Photovoltaik &    \multicolumn{1}{r|}{1}   &       & Akkuladungen/Tag \\
+    \hline
+  \multirow{2}{*}{Kommunikationsmodule} & GPS-Modul Standortupdate   &  \multicolumn{1}{r|}{<\,5}  &       & Minuten \\
+	\cline{2-5}          & GSM-Modul  & SMS: Senden und Empfangen &       &  \\
+\hline
+Sensoren & Sonnenstunden (Lichtstromdichte) & \multicolumn{1}{r|}{0.1 - 90'000} & & lx \\
+\hline
+PCB & Herstellung eines 4-Lagen Prints & & & \\
+    \bottomrule
+    \multicolumn{1}{l}{\textbf{Nichtziele}} & \multicolumn{4}{r}{} \\
+    \toprule
+     Sensoren aus Projekt 5& Keine Neukonzeption &  &  &  \\
+     \hline
+     Wartungsfreiheit & Wartungsfenster & \multicolumn{1}{r|}{>7} &  & Tage \\
+    \bottomrule
+    \multicolumn{1}{l}{\textbf{Wunschziele}} & \multicolumn{4}{r}{} \\
+    \toprule
+    Kommunikationsmodule & Einbindung in IoT &       Bluetooth || WLAN &       &  \\
+    \hline
+    \multirow{2}{*}{Speisung} & Akku leicht austauschbar &       &       &  \\
+\cline{2-5}  & Mittels USB ladbar & USB 2.0 (Mini-B || Micro-B) &       &  \\
+
+    \bottomrule
+    \end{tabular}%
+  \label{tab:ZieleP6}%
+\end{table}%
+
+Tabelle \ref{tab:ZieleP6} zeigt die Muss-, Nicht- und Wunschziele des Projekts auf. Die Akkulaufzeit und das Laden mittels DC-Ladekabel sind spezifiziert. Ausserdem wird ein volles Aufladen des Akkus innerhalb eines Tages via Photovoltaik als Ziel gesetzt. Nicht Ziel des Projekts ist es, die in einem vorhergehenden Projekt benutzten Sensoren neu zu konzipieren, sowie die mobile Wetterstation komplett Wartungsfrei zu machen. Eine wöchentliche Wartung ($\leq$ 7 Tage) wird als vertretbar bis notwendig erachtet. Als Wunschziel folgt die Einbindung der mobilen Wetterstation in das \textit{IoT}, ein leicht austauschbarer Akku, sowie die Möglichkeit, den Akku in der mobilen Wetterstation via USB-Kabel zu laden.\\
+
+\end{landscape}

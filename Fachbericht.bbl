@@ -1,0 +1,722 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{avrdragonug}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1e836098d9ffdd96fe8d4480d1b95973}{%
+           family={{Atmel Corporation}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e836098d9ffdd96fe8d4480d1b95973}
+      \strng{fullhash}{1e836098d9ffdd96fe8d4480d1b95973}
+      \strng{bibnamehash}{1e836098d9ffdd96fe8d4480d1b95973}
+      \strng{authorbibnamehash}{1e836098d9ffdd96fe8d4480d1b95973}
+      \strng{authornamehash}{1e836098d9ffdd96fe8d4480d1b95973}
+      \strng{authorfullhash}{1e836098d9ffdd96fe8d4480d1b95973}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{AVR Dragon User Guide}
+      \field{urlday}{2}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ww1.microchip.com/downloads/en/devicedoc/atmel-42723-avr-dragon_userguide.pdf
+      \endverb
+      \verb{url}
+      \verb http://ww1.microchip.com/downloads/en/devicedoc/atmel-42723-avr-dragon_userguide.pdf
+      \endverb
+    \endentry
+    \entry{arduinoWiki}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{5}
+      \field{title}{Arduino (Plattform)}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Arduino_(Plattform)
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Arduino_(Plattform)
+      \endverb
+    \endentry
+    \entry{ArduinoLicense2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={Arduino},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{bibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorbibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{8}
+      \field{title}{Frequently Asked Questions}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb file:///C:/Program%20Files%20(x86)/Arduino/reference/www.arduino.cc/en/Main/FAQ.html
+      \endverb
+      \verb{url}
+      \verb file:///C:/Program%20Files%20(x86)/Arduino/reference/www.arduino.cc/en/Main/FAQ.html
+      \endverb
+    \endentry
+    \entry{FTDI}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3e7037a8cda0503e3941e021be37f9b7}{%
+           family={{FTDI Chip}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e7037a8cda0503e3941e021be37f9b7}
+      \strng{fullhash}{3e7037a8cda0503e3941e021be37f9b7}
+      \strng{bibnamehash}{3e7037a8cda0503e3941e021be37f9b7}
+      \strng{authorbibnamehash}{3e7037a8cda0503e3941e021be37f9b7}
+      \strng{authornamehash}{3e7037a8cda0503e3941e021be37f9b7}
+      \strng{authorfullhash}{3e7037a8cda0503e3941e021be37f9b7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Future Technology Devices International Ltd. FT231X (USB to FULL HANDSHAKE UART IC)}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+      \endverb
+    \endentry
+    \entry{arduinoMega}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={Arduino},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{bibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorbibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Arduino Mega 2560 Datasheet}}
+      \field{type}{techreport}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.robotshop.com/media/files/pdf/arduinomega2560datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.robotshop.com/media/files/pdf/arduinomega2560datasheet.pdf
+      \endverb
+    \endentry
+    \entry{DS3231DS}{report}{}
+      \name{author}{1}{}{%
+        {{hash=f7a26b2b8cb37885b95f534c9ba565e3}{%
+           family={{Maxim Integrated}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Maxim Integrated Products Inc.}%
+      }
+      \strng{namehash}{f7a26b2b8cb37885b95f534c9ba565e3}
+      \strng{fullhash}{f7a26b2b8cb37885b95f534c9ba565e3}
+      \strng{bibnamehash}{f7a26b2b8cb37885b95f534c9ba565e3}
+      \strng{authorbibnamehash}{f7a26b2b8cb37885b95f534c9ba565e3}
+      \strng{authornamehash}{f7a26b2b8cb37885b95f534c9ba565e3}
+      \strng{authorfullhash}{f7a26b2b8cb37885b95f534c9ba565e3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{9}
+      \field{title}{DS3231 Extremely Accurate I$^2$C-Integrated RTC/TCXO/Crystal}
+      \field{type}{Datasheet}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://web.wpi.edu/Pubs/E-project/Available/E-project-010908-124414/unrestricted/DS3231-DS3231S.pdf
+      \endverb
+      \verb{url}
+      \verb https://web.wpi.edu/Pubs/E-project/Available/E-project-010908-124414/unrestricted/DS3231-DS3231S.pdf
+      \endverb
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'DS3231DS'}
+    \endentry
+    \entry{AmazonAnemometer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={Amazon},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Ersatz Sensor Windgeschwindigkeit für Froggit WH1080 WH3080 WH1090}}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.de/Ersatz-Sensor-Windgeschwindigkeit-Froggit-WH1080/dp/B00GGM5HEA/ref=pd_rhf_eetyp_p_img_1?_encoding=UTF8&psc=1&refRID=4R5P7RRF8H7RC3A4KAHQ
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.de/Ersatz-Sensor-Windgeschwindigkeit-Froggit-WH1080/dp/B00GGM5HEA/ref=pd_rhf_eetyp_p_img_1?_encoding=UTF8&psc=1&refRID=4R5P7RRF8H7RC3A4KAHQ
+      \endverb
+    \endentry
+    \entry{ADSkeineAngabe}{report}{}
+      \name{author}{1}{}{%
+        {{hash=da91c20be4b1683dd2968846cbcb1686}{%
+           family={{Argent Data Systems}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Argent Data Systems}%
+      }
+      \strng{namehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{fullhash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{bibnamehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{authorbibnamehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{authornamehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{authorfullhash}{da91c20be4b1683dd2968846cbcb1686}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Weather Sensor Assembly p/n 80422}
+      \field{type}{Bericht}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf
+      \endverb
+    \endentry
+    \entry{windrichtungsgeber}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={Amazon},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MISOL 1 PCS of Spare part for weather station to test the wind direction}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1
+      \endverb
+    \endentry
+    \entry{Bosch2019}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0a64ba91dc18fc71a37410131670eb06}{%
+           family={{Bosch Sensortec}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bosch}%
+      }
+      \strng{namehash}{0a64ba91dc18fc71a37410131670eb06}
+      \strng{fullhash}{0a64ba91dc18fc71a37410131670eb06}
+      \strng{bibnamehash}{0a64ba91dc18fc71a37410131670eb06}
+      \strng{authorbibnamehash}{0a64ba91dc18fc71a37410131670eb06}
+      \strng{authornamehash}{0a64ba91dc18fc71a37410131670eb06}
+      \strng{authorfullhash}{0a64ba91dc18fc71a37410131670eb06}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{BME280 Combined humidity and pressure sensor}
+      \field{type}{Datasheet}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
+      \endverb
+      \verb{url}
+      \verb https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
+      \endverb
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'Bosch2019'}
+    \endentry
+    \entry{TSL2561}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=78db2cd0fa47d855018435abe7d75a26}{%
+           family={TAOS},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{78db2cd0fa47d855018435abe7d75a26}
+      \strng{fullhash}{78db2cd0fa47d855018435abe7d75a26}
+      \strng{bibnamehash}{78db2cd0fa47d855018435abe7d75a26}
+      \strng{authorbibnamehash}{78db2cd0fa47d855018435abe7d75a26}
+      \strng{authornamehash}{78db2cd0fa47d855018435abe7d75a26}
+      \strng{authorfullhash}{78db2cd0fa47d855018435abe7d75a26}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TSL2560, TSL2561 Light-to-digital Converter}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-shop.adafruit.com/datasheets/TSL2561.pdf
+      \endverb
+    \endentry
+    \entry{TSL2561Adafruit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adafruit TSL2561 Digital Luminosity/Lux/Light Sensor Breakout}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.adafruit.com/product/439
+      \endverb
+      \verb{url}
+      \verb https://www.adafruit.com/product/439
+      \endverb
+    \endentry
+    \entry{BME_Breakout}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.adafruit.com/product/2652
+      \endverb
+      \verb{url}
+      \verb https://www.adafruit.com/product/2652
+      \endverb
+    \endentry
+    \entry{musdkarte}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c49b30a6981a942690541959d4048de1}{%
+           family={SanDisk},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c49b30a6981a942690541959d4048de1}
+      \strng{fullhash}{c49b30a6981a942690541959d4048de1}
+      \strng{bibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SanDisk microSDHC Speicherkarte}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sandisk.de/home/memory-cards/microsd-cards/sandisk-microsd
+      \endverb
+      \verb{url}
+      \verb https://www.sandisk.de/home/memory-cards/microsd-cards/sandisk-microsd
+      \endverb
+    \endentry
+    \entry{muSDspez}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c49b30a6981a942690541959d4048de1}{%
+           family={SanDisk},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c49b30a6981a942690541959d4048de1}
+      \strng{fullhash}{c49b30a6981a942690541959d4048de1}
+      \strng{bibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
+      \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SD/SDHC/SDXC Spezifikationen und Kompatibilitäten}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kb-de.sandisk.com/app/answers/detail/a_id/8317/~/sd%2Fsdhc%2Fsdxc-spezifikationen-und-kompatibilit%C3%A4ten
+      \endverb
+      \verb{url}
+      \verb https://kb-de.sandisk.com/app/answers/detail/a_id/8317/~/sd%2Fsdhc%2Fsdxc-spezifikationen-und-kompatibilit%C3%A4ten
+      \endverb
+    \endentry
+    \entry{SIM808}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d67a90f698b5ab192347633b54846e66}{%
+           family={SIMCom},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{fullhash}{d67a90f698b5ab192347633b54846e66}
+      \strng{bibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{authorbibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{authornamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{authorfullhash}{d67a90f698b5ab192347633b54846e66}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SIM808 Hardware Design V1.00}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn-shop.adafruit.com/datasheets/SIM808_Hardware+Design_V1.00.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-shop.adafruit.com/datasheets/SIM808_Hardware+Design_V1.00.pdf
+      \endverb
+    \endentry
+    \entry{MCP73871}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f7962ad60e8c8ec26481358db76f7f6a}{%
+           family={Microchip},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{fullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{bibnamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authorbibnamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authornamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authorfullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Stand-Alone System Load Sharing and Li-Ion/Li-Polymer battery Charge Management Controller}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://ww1.microchip.com/downloads/en/DeviceDoc/20002090C.pdf
+      \endverb
+      \verb{url}
+      \verb http://ww1.microchip.com/downloads/en/DeviceDoc/20002090C.pdf
+      \endverb
+    \endentry
+    \entry{LM1117}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80293b4ff94467c0484a58bc2894e211}{%
+           family={{Texas Instruments}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{fullhash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{bibnamehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authorbibnamehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authornamehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authorfullhash}{80293b4ff94467c0484a58bc2894e211}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LM1117 800-mA Low-Dropout Linear Regulator}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ti.com/lit/ds/symlink/lm1117.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ti.com/lit/ds/symlink/lm1117.pdf
+      \endverb
+    \endentry
+    \entry{74HC125}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1db60898a6121d640d011e1623db9802}{%
+           family={{DIODES Incorporated}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1db60898a6121d640d011e1623db9802}
+      \strng{fullhash}{1db60898a6121d640d011e1623db9802}
+      \strng{bibnamehash}{1db60898a6121d640d011e1623db9802}
+      \strng{authorbibnamehash}{1db60898a6121d640d011e1623db9802}
+      \strng{authornamehash}{1db60898a6121d640d011e1623db9802}
+      \strng{authorfullhash}{1db60898a6121d640d011e1623db9802}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{74HC125}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diodes.com/assets/Datasheets/74HC125.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.diodes.com/assets/Datasheets/74HC125.pdf
+      \endverb
+    \endentry
+    \entry{74HC4050}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ed12702f830dd2b0fabe23c1d36e1c6d}{%
+           family={{Nexperia}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{fullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{bibnamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authorbibnamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authornamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authorfullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{74HC4050 Hex non-inverting HIGH-to-LOW level shifter}}
+      \field{type}{techreport}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mouser.ch/datasheet/2/916/74HC4050-1598370.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.ch/datasheet/2/916/74HC4050-1598370.pdf
+      \endverb
+    \endentry
+    \entry{Solarpanel}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Huge 6V 6W Solar panel - 6.0 Watt}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.adafruit.com/product/1525
+      \endverb
+      \verb{url}
+      \verb https://www.adafruit.com/product/1525
+      \endverb
+    \endentry
+    \entry{license_bme280}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LICENSE}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/adafruit/Adafruit_BME280_Library/blob/master/LICENSE
+      \endverb
+      \verb{url}
+      \verb https://github.com/adafruit/Adafruit_BME280_Library/blob/master/LICENSE
+      \endverb
+    \endentry
+    \entry{license_rtclib}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LICENSE}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/adafruit/RTClib/blob/master/LICENSE
+      \endverb
+      \verb{url}
+      \verb https://github.com/adafruit/RTClib/blob/master/LICENSE
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

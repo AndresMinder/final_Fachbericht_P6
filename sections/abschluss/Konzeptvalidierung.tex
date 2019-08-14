@@ -1,0 +1,27 @@
+\subsection{Konzeptvalidierung}
+\label{subsec:Konzeptvalidierung}
+
+\subsubsection{Validierung der Hardware}
+Die Validierung der Hardware ist ein wichtiger Schritt um Denk- und Designfehler zu entdecken oder um die Funktionen zu verifizieren. Aus diesem Grund wird in diesem Unterkapitel die Validierung der Hardware thematisiert und mit Abbildungen anschaulich dargestellt.\\
+
+Die Energieversorgung ist äusserst wichtig, da ohne eine funktionierende Energieversorgung kein Bauteil seiner Funktion nachgehen kann. Zuerst wird kontrolliert, ob die Verbindungen der Leiterbahnen für das 3.3V-Netz bestehen. Dies wird mit der Funktion eines Flukes gemacht, bei welcher das Fluke einen Ton erklingen lässt sobald eine elektrische Verbindung besteht (kleiner Widerstand). In Abbildung \todo[inline]{ref Bild einfügen} ist dies anschaulich dargestellt. Es werden vom Ausgang des Linearreglers aus alle Verbindungen getestet, welche in Abbildung \todo[inline]{ref Bild einfügen} eingezeichnet wurden.
+\todo[inline]{Fazit Verbindungstest}
+Als zweites wird nach dem Bestücken der Energieversorgung diese ausgetestet. Es wird überprüft, ob der Linearregler am Ausgang auf 3.3V regelt. Ausserdem muss überprüft werden, ob die ChargePump die Akkuspannung auf das gewünschte Potenzial bringt. Darüber hinaus muss noch getestet werden, ob die Dioden in der nähe des DCIN Jacks wie gewünscht in Sperrichtung sperren. Für diese Tests müssen einfache Spannungsmessungen gemacht werden, wie in den Abbildungen \todo[inline]{ref Bild einfügen} illustriert.
+\todo[inline]{Fazit Versorgungstest}
+In einem weiteren Schritt wird die MCU mit ihrer Peripherie auf dem PCB angelötet. Um zu testen, ob die MCU funktioniert, wird diese über den ICSP-Header geflasht (gemäss Kapitel \todo{ref zu MCU flashen} und dabei auf einen externen Clock eingestellt. Die LED soll nach dem flashen leuchten, da die MCU in betrieb ist. Ausserdem soll die LED nicht mehr leuchten, sobald der Reset-Button gedrückt wird.
+\todo[inline]{Fazit erster MCU-Test}
+Die serielle Schnittstelle wird nun implementiert. Deren Funktion wird mit Hilfe eines Programms auf der MCU und PuTTY (ein Emulator für serielle Schnittstellen auf dem Computer) getestet.
+\todo[inline]{Fazit Serieller Kommunikationstest}
+Die Datenspeicherung wird implementiert und mit Hilfe der seriellen Schnittstelle getestet, indem ein File auf der $\mu$SD-Karte gespeichert und über die serielle Schnittstelle ausgelesen wird.
+\todo[inline]{Fazit Datenspeicherungstest}
+Als nächster grosser Schritt wird die SIM808 mit deren Peripherie implementiert. Es wird getestet, ob die SIM-Karte eine 1.8V Speisung erhält. Nachfolgend wird dann das Senden und Empfangen einer SMS, sowie das ermitteln des Standorts über ein kleines Testprogramm getestet. Die LEDs werden dabei auf ihr korrektes Verhalten hin beobachtet. 
+\todo[inline]{Fazit SIM808test}
+Weiter können die RTC, sowie das Ombrometer und das Anemometer mit Windrichtungsgeber angeschlossen werden. Die Signale des Ombrometers, des Anemometers und des Windrichtungsgebers werden auf ein möglichst sauberes (unverrauschtes) Signal hin getestet und die Flanken des Ombrometers und des Anemometers auf Störungen untersucht.
+\todo[inline]{Fazit RTC Anemo Ombro test}
+Zu guter letzt können der BME280 und der TSL2561 angeschlossen werden und über ein Testprogramm auf ihre korrekte Funktionsweise hin überprüft werden.
+\todo[inline]{Fazit BME-TSL-test}
+
+Die Hardware wurde validiert, es kann gesagt werden, dass alle Tests bestanden wurden. In einem weiteren Schritt muss nun die Firmware auf die MCU geladen und getestet werden, was im nächsten Kapitel erfolgt.
+
+
+

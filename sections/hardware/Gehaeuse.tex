@@ -91,18 +91,22 @@ Abbildung \ref{fig:D:Deckel:BME} zeigt den bereits erwähnten Extraraum des BME2
 \end{figure}
 Um den BME280 und den TSL2561 hinausführen zu können, wurden im Gehäuse entsprechende Öffnungen und auch Schraubenlöcher eingelassen. Die eben genannten Öffnungen und Schraubenlöcher sind in Abbildung \ref{fig:D:Deckel:TSL} äusserst gut ersichtlich.
 \newpage
-{\begin{minipage}[b][7cm][t]{0.49\textwidth}
+{\begin{minipage}[b][6cm][t]{0.49\textwidth}
 \centering
 \includegraphics[width=0.8\linewidth]{graphics/Gehaeuse/Design_Boden_Rand.jpg}
 \captionof{figure}{Design des Randes vom Boden zum Deckel hin.}
 \label{fig:D:Boden:Rand}
 \end{minipage}}
-{\begin{minipage}[b][7cm][t]{0.49\textwidth}
+{\begin{minipage}[b][6cm][t]{0.49\textwidth}
 \centering
 \includegraphics[width=0.8\linewidth]{graphics/Gehaeuse/Design_Deckel_Rand.jpg}
 \captionof{figure}{Design des Randes vom Deckel zum Boden hin.}
 \label{fig:D:Deckel:Rand}
 \end{minipage}}
 
-Damit das Befestigen des Bodens mit dem Deckel einfacher zu handhaben ist, wurde beim Boden die äussere Hälfte des Randes um 1mm gesenkt, wobei beim Deckel die innere Hälfte des Randes um 1mm gesenkt wurde. Dank diesem Feature ist es möglich den Deckel wie ein Puzzlestück am Boden anzubringen, bevor die Verschraubung von statten geht.\\[0.5cm]
+Damit das Befestigen des Bodens mit dem Deckel einfacher zu handhaben ist, wurde beim Boden die äussere Hälfte des Randes um 1mm gesenkt, wobei beim Deckel die innere Hälfte des Randes um 1mm gesenkt wurde. Dank diesem Feature ist es möglich den Deckel wie ein Puzzlestück am Boden anzubringen, bevor die Verschraubung von statten geht.\\[0.25cm]
 Das Design des Gehäuses für das PCB wurde in diesem Unterkapitel näher erläutert. Es sei jedoch erwähnt, dass dieses Gehäuse nicht geeignet ist um die Wetterstation im freien betreiben zu können. Das hier vorgestellte Design zeigt lediglich auf, auf was beim Gehäuse, in Bezug auf das PCB, geachtet werden muss. Damit das Gehäuse für den Gebrauch im freien taugt, muss es zwingend gegen Regen und Staub dicht sein, so dass die verwendete Elektronik keine Schäden erleidet. Dennoch muss der BME280 mit Aussenluft belüftet werden, was bei einem möglichst Regen- und Staubdichten Gehäuse eine zusätzliche, kontrollierte Belüftung notwendig macht. Ausserdem muss auf einen möglichen Hitzestau durch Sonneneinstrahlung getestet und gegebenfalls eine Kühlung integriert werden.
+
+\subsubsection{Probleme mit dem gedruckten Gehäuse}
+Das mit einem 3D-Printer gedruckte Gehäuse aus weissem PLA weist Mängel auf. Zum einen kam es durch die Schwingungen des Druckers zu Fehlprints im Bereich des Extraraumes für den BME280, da die Lamellen zu instabil sind (dünn und lang). Das implementierte Gewinde für die Schrauben war unzureichend gedruckt, weshalb es lediglich zu einer Verengung des Schraubenlochs kam und kleinere Schrauben verwendet werden mussten. Zudem hin kommt eine Differenz in der Distanz der Bohrlöcher, denn die Bohrlöcher scheinen wegen 1mm nicht aufeinander zu passen und mussten deshalb aufgebohrt werden. Dies führte dazu, dass am unteren Ende für die Schrauben eine Mutter positioniert und angeklebt werden musste, da die Schrauben sonst keinen Halt fänden. Ebenfalls gab es Probleme beim BME280 und beim TSL2561, weil die auf dem Print implementierten Pinheader mit den Schraubenblocks kollidierten, was ebenfalls mit einer Bohrmaschine behoben wurde. Die Anschlüsse auf der Seite des $\mu$USB-Anschlusses ragten nicht hinaus, weshalb die Öffnung des $\mu$USB-Anschlusses vergrössert werden musste, damit ein Kabel angeschlossen werden kann. Die Schrauben, um den BME280 und den TSL2561 zu befestigen, gab es im OBI nicht zu kaufen, weshalb auf Holzschrauben mit angemessenem Durchmesser zurückgegriffen werden musste und eine Holzleiste für die Befestigung benötigt wurde. Der transparente Raum für den TSL2561 konnte nicht gedruckt werden, da das transparente Filament nicht transparent genug wäre und Rillen enthalten würde, weshalb ein transparentes Stück Plastik einer Verpackung angeklebt wurde. \\[0.25cm]
+Die Firmware, die Hardware und das Gehäuse wurden erstellt, weshalb nun die Validierung des Konzepts im nächsten Kapitel folgt.

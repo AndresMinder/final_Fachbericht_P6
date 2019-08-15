@@ -15,54 +15,57 @@
 \BOOKMARK [3][-]{subsubsection.2.1.1}{2.1.1 In-System-Programmer}{subsection.2.1}% 15
 \BOOKMARK [2][-]{subsection.2.2}{2.2 UML-Diagramm}{section.2}% 16
 \BOOKMARK [3][-]{subsubsection.2.2.1}{2.2.1 Lizenzen}{subsection.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.3}{2.3 Validierung der Firmware}{section.2}% 18
-\BOOKMARK [2][-]{subsection.2.4}{2.4 Manual}{section.2}% 19
-\BOOKMARK [3][-]{subsubsection.2.4.1}{2.4.1 USB-to-Computer}{subsection.2.4}% 20
-\BOOKMARK [3][-]{subsubsection.2.4.2}{2.4.2 SMS-Abfrage}{subsection.2.4}% 21
-\BOOKMARK [1][-]{section.3}{3 Hardware}{}% 22
-\BOOKMARK [2][-]{subsection.3.1}{3.1 \334bersicht}{section.3}% 23
-\BOOKMARK [2][-]{subsection.3.2}{3.2 MCU}{section.3}% 24
-\BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 MCU - Projekt 5}{subsection.3.2}% 25
-\BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Erg\344nzungen aus der Bachelor-Thesis}{subsection.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.3}{3.3 RTC}{section.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.3.1}{3.3.1 RTC - Projekt 5}{subsection.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.4}{3.4 Sensoren}{section.3}% 29
-\BOOKMARK [3][-]{subsubsection.3.4.1}{3.4.1 Ombrometer - Projekt 5}{subsection.3.4}% 30
-\BOOKMARK [3][-]{subsubsection.3.4.2}{3.4.2 Anemometer - Projekt 5}{subsection.3.4}% 31
-\BOOKMARK [3][-]{subsubsection.3.4.3}{3.4.3 Windrichtungsgeber - Projekt 5}{subsection.3.4}% 32
-\BOOKMARK [3][-]{subsubsection.3.4.4}{3.4.4 BME280 - Projekt 5}{subsection.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.5}{3.5 Erg\344nzungen aus der Bachelor-Thesis}{section.3}% 34
-\BOOKMARK [3][-]{subsubsection.3.5.1}{3.5.1 Lichtintensit\344tssensor}{subsection.3.5}% 35
-\BOOKMARK [3][-]{subsubsection.3.5.2}{3.5.2 BME280}{subsection.3.5}% 36
-\BOOKMARK [2][-]{subsection.3.6}{3.6 Datenspeicherung}{section.3}% 37
-\BOOKMARK [3][-]{subsubsection.3.6.1}{3.6.1 Datenspeicherung - Projekt 5}{subsection.3.6}% 38
-\BOOKMARK [3][-]{subsubsection.3.6.2}{3.6.2 Erg\344nzungen aus der Bachelor-Thesis}{subsection.3.6}% 39
-\BOOKMARK [2][-]{subsection.3.7}{3.7 Kommunikationsmodule}{section.3}% 40
-\BOOKMARK [3][-]{subsubsection.3.7.1}{3.7.1 SIM808}{subsection.3.7}% 41
-\BOOKMARK [2][-]{subsection.3.8}{3.8 Energieversorgung}{section.3}% 42
-\BOOKMARK [3][-]{subsubsection.3.8.1}{3.8.1 Berechnung der Akkukapazit\344t}{subsection.3.8}% 43
-\BOOKMARK [3][-]{subsubsection.3.8.2}{3.8.2 Einfluss der Photovoltaik}{subsection.3.8}% 44
-\BOOKMARK [3][-]{subsubsection.3.8.3}{3.8.3 ChargePump und Linearregler}{subsection.3.8}% 45
-\BOOKMARK [2][-]{subsection.3.9}{3.9 PCB}{section.3}% 46
-\BOOKMARK [3][-]{subsubsection.3.9.1}{3.9.1 Das Best\374cken der Leiterplatte}{subsection.3.9}% 47
-\BOOKMARK [3][-]{subsubsection.3.9.2}{3.9.2 M\344ngel der Erstversion und dessen Verbesserungen}{subsection.3.9}% 48
-\BOOKMARK [2][-]{subsection.3.10}{3.10 Das Geh\344use}{section.3}% 49
-\BOOKMARK [3][-]{subsubsection.3.10.1}{3.10.1 Wichtige Merkmale}{subsection.3.10}% 50
-\BOOKMARK [3][-]{subsubsection.3.10.2}{3.10.2 Das Design}{subsection.3.10}% 51
+\BOOKMARK [2][-]{subsection.2.3}{2.3 Manual}{section.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.3.1}{2.3.1 USB-to-Computer}{subsection.2.3}% 19
+\BOOKMARK [3][-]{subsubsection.2.3.2}{2.3.2 SMS-Abfrage}{subsection.2.3}% 20
+\BOOKMARK [1][-]{section.3}{3 Hardware}{}% 21
+\BOOKMARK [2][-]{subsection.3.1}{3.1 \334bersicht}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.2}{3.2 MCU}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.2.1}{3.2.1 Bestehende MCU}{subsection.3.2}% 24
+\BOOKMARK [3][-]{subsubsection.3.2.2}{3.2.2 Erg\344nzungen aus der Bachelor-Thesis}{subsection.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.3}{3.3 RTC}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.3.1}{3.3.1 Bestehende RTC}{subsection.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.4}{3.4 Bestehende Sensorik}{section.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.4.1}{3.4.1 Ombrometer}{subsection.3.4}% 29
+\BOOKMARK [3][-]{subsubsection.3.4.2}{3.4.2 Anemometer}{subsection.3.4}% 30
+\BOOKMARK [3][-]{subsubsection.3.4.3}{3.4.3 Windrichtungsgeber}{subsection.3.4}% 31
+\BOOKMARK [3][-]{subsubsection.3.4.4}{3.4.4 BME280}{subsection.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.5}{3.5 Erg\344nzungen aus der Bachelor-Thesis}{section.3}% 33
+\BOOKMARK [3][-]{subsubsection.3.5.1}{3.5.1 Lichtintensit\344tssensor}{subsection.3.5}% 34
+\BOOKMARK [3][-]{subsubsection.3.5.2}{3.5.2 BME280}{subsection.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.6}{3.6 Datenspeicherung}{section.3}% 36
+\BOOKMARK [3][-]{subsubsection.3.6.1}{3.6.1 Bestehende Datenspeicherung}{subsection.3.6}% 37
+\BOOKMARK [3][-]{subsubsection.3.6.2}{3.6.2 Erg\344nzungen aus der Bachelor-Thesis}{subsection.3.6}% 38
+\BOOKMARK [2][-]{subsection.3.7}{3.7 Kommunikationsmodule}{section.3}% 39
+\BOOKMARK [3][-]{subsubsection.3.7.1}{3.7.1 SIM808}{subsection.3.7}% 40
+\BOOKMARK [2][-]{subsection.3.8}{3.8 Energieversorgung}{section.3}% 41
+\BOOKMARK [3][-]{subsubsection.3.8.1}{3.8.1 Berechnung der Akkukapazit\344t}{subsection.3.8}% 42
+\BOOKMARK [3][-]{subsubsection.3.8.2}{3.8.2 Einfluss der Photovoltaik}{subsection.3.8}% 43
+\BOOKMARK [3][-]{subsubsection.3.8.3}{3.8.3 ChargePump und Linearregler}{subsection.3.8}% 44
+\BOOKMARK [2][-]{subsection.3.9}{3.9 PCB}{section.3}% 45
+\BOOKMARK [3][-]{subsubsection.3.9.1}{3.9.1 Das Best\374cken der Leiterplatte}{subsection.3.9}% 46
+\BOOKMARK [3][-]{subsubsection.3.9.2}{3.9.2 M\344ngel der Erstversion und dessen Verbesserungen}{subsection.3.9}% 47
+\BOOKMARK [2][-]{subsection.3.10}{3.10 Das Geh\344use}{section.3}% 48
+\BOOKMARK [3][-]{subsubsection.3.10.1}{3.10.1 Wichtige Merkmale}{subsection.3.10}% 49
+\BOOKMARK [3][-]{subsubsection.3.10.2}{3.10.2 Das Design}{subsection.3.10}% 50
+\BOOKMARK [3][-]{subsubsection.3.10.3}{3.10.3 Probleme mit dem gedruckten Geh\344use}{subsection.3.10}% 51
 \BOOKMARK [1][-]{section.4}{4 Abschluss}{}% 52
 \BOOKMARK [2][-]{subsection.4.1}{4.1 Konzeptvalidierung}{section.4}% 53
-\BOOKMARK [3][-]{subsubsection.4.1.1}{4.1.1 Validierung der Hardware}{subsection.4.1}% 54
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Schluss}{section.4}% 55
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Authentizit\344tserkl\344rung}{section.4}% 56
-\BOOKMARK [1][-]{section*.61}{Literatur}{}% 57
-\BOOKMARK [1][-]{section*.62}{Tabellenverzeichnis}{}% 58
-\BOOKMARK [1][-]{section*.63}{Abbildungsverzeichnis}{}% 59
-\BOOKMARK [1][-]{section*.64}{Anhang}{}% 60
-\BOOKMARK [1][-]{appendix.A}{A Lastenheft}{}% 61
-\BOOKMARK [1][-]{appendix.B}{B Aufgabenstellung}{}% 62
-\BOOKMARK [1][-]{appendix.C}{C Lizenz-Texte}{}% 63
-\BOOKMARK [2][-]{subsection.C.1}{C.1 Adafruit\137BME280}{appendix.C}% 64
-\BOOKMARK [2][-]{subsection.C.2}{C.2 RTClib}{appendix.C}% 65
-\BOOKMARK [1][-]{appendix.D}{D Konzept Posterbild}{}% 66
-\BOOKMARK [1][-]{appendix.E}{E Schema}{}% 67
-\BOOKMARK [1][-]{appendix.F}{F PCB-Layout}{}% 68
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Validierung der Hardware}{section.4}% 54
+\BOOKMARK [3][-]{subsubsection.4.2.1}{4.2.1 Validierung der Firmware}{subsection.4.2}% 55
+\BOOKMARK [3][-]{subsubsection.4.2.2}{4.2.2 Leistungsmessung der Wetterstation}{subsection.4.2}% 56
+\BOOKMARK [3][-]{subsubsection.4.2.3}{4.2.3 Vergleich der erreichten mit den gesetzten Zielen}{subsection.4.2}% 57
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Schluss}{section.4}% 58
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Authentizit\344tserkl\344rung}{section.4}% 59
+\BOOKMARK [1][-]{section*.60}{Literatur}{}% 60
+\BOOKMARK [1][-]{section*.61}{Tabellenverzeichnis}{}% 61
+\BOOKMARK [1][-]{section*.62}{Abbildungsverzeichnis}{}% 62
+\BOOKMARK [1][-]{section*.63}{Anhang}{}% 63
+\BOOKMARK [1][-]{appendix.A}{A Lastenheft}{}% 64
+\BOOKMARK [1][-]{appendix.B}{B Aufgabenstellung}{}% 65
+\BOOKMARK [1][-]{appendix.C}{C Lizenz-Texte}{}% 66
+\BOOKMARK [2][-]{subsection.C.1}{C.1 Adafruit\137BME280}{appendix.C}% 67
+\BOOKMARK [2][-]{subsection.C.2}{C.2 RTClib}{appendix.C}% 68
+\BOOKMARK [1][-]{appendix.D}{D Konzept Posterbild}{}% 69
+\BOOKMARK [1][-]{appendix.E}{E Schema}{}% 70
+\BOOKMARK [1][-]{appendix.F}{F PCB-Layout}{}% 71

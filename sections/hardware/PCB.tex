@@ -24,7 +24,22 @@ SMD Bauteile werden auf die Oberfläche des PCBs gelegt und dort angelötet. Dab
 \end{minipage}}
 
 
-Die MCU hat ein TQFP gehäuse mit insgesamt 100 Pins (25 je Seite). Diese Pins sind äusserst nahe beieinander und sehr dünn, weshalb ein normales anlöten wie bei oben genannten SMD Bauteilen nicht gut funktioniert. Hier wird das oft \textit{Ziehlöten} genannte Verfahren angewendet. Dabei wird die MCU erst äusserst sorgfältig korrekt platziert. Mit einer Pinzette wird die MCU an Ort und Stelle gehalten. Die Pins auf einer Seite werden nun grosszügig mit Flussmittel eingestrichen. Direkt nach dem Einstreichen muss der Lötstab mit dem breiten Lötaufsatz und ganz wenig Lötzinn über die Pins fahren, um den Lötzinn auf die Pins zu verteilen. Nun kann wieder mit dem Flussmittel gearbeitet werden, wobei der Lötstab frontal von den Enden der Pins (MCU-seitig) nach aussen gzogen wird. Lötzinn muss im zweiten Schritt meistens keiner mehr verwendet werden und wenn doch, dann nur äusserst wenig. Die Kunst besteht darin, nicht zu viel Lötzinn zu verwenden, da sonst Lötbrücken entstehen können, welche nicht ganz einfach zu entfernen sind. Dieses Verfahren wird in Abbildung \todo[inline]{ref Bild einfügen MCU löten} dargestellt.
+Die MCU hat ein TQFP gehäuse mit insgesamt 100 Pins (25 je Seite). Diese Pins sind äusserst nahe beieinander und sehr dünn, weshalb ein normales anlöten wie bei oben genannten SMD Bauteilen nicht gut funktioniert. Hier wird das oft \textit{Ziehlöten} genannte Verfahren angewendet. Dabei wird die MCU erst äusserst sorgfältig korrekt platziert. Mit einer Pinzette wird die MCU an Ort und Stelle gehalten. Die Pins auf einer Seite werden nun grosszügig mit Flussmittel eingestrichen. Direkt nach dem Einstreichen muss der Lötstab mit dem breiten Lötaufsatz und ganz wenig Lötzinn über die Pins fahren, um den Lötzinn auf die Pins zu verteilen. Nun kann wieder mit dem Flussmittel gearbeitet werden, wobei der Lötstab frontal von den Enden der Pins (MCU-seitig) nach aussen gzogen wird. Lötzinn muss im zweiten Schritt meistens keiner mehr verwendet werden und wenn doch, dann nur äusserst wenig. Die Kunst besteht darin, nicht zu viel Lötzinn zu verwenden, da sonst Lötbrücken entstehen können, welche nicht ganz einfach zu entfernen sind. Dieses Verfahren wird in den Abbildungen \ref{fig:MCU_Prep} und \ref{fig:MCU_Loeten} dargestellt.\\
+
+{\begin{minipage}[b][8cm][t]{0.49\textwidth}
+\centering
+\includegraphics[width=0.9\linewidth]{graphics/HW_Val/MCU_Prep.jpg}
+\captionof{figure}{Verteilen des Flussmittels an die Pins der MCU.}
+\label{fig:MCU_Prep}
+\end{minipage}}
+{\begin{minipage}[b][8cm][t]{0.49\textwidth}
+\centering
+\includegraphics[width=0.9\linewidth]{graphics/HW_Val/MCU_Loeten.jpg}
+\captionof{figure}{Löten der MCU via Ziehlötverfahren.}
+\label{fig:MCU_Loeten}
+\end{minipage}}
+\newpage
+Das Vorbereiten der Lötstellen der MCU mit der Zugabe des Flussmittels wird in Abbildung \ref{fig:MCU_Prep} dargestellt. Wichtig ist, dass dies unmittelbar vor dem Löten gemacht wird, da sich das Flussmittel an der Luft verflüchtigt. In Abbildung \ref{fig:MCU_Loeten} wird ersichtlich, dass der Lötkolben mit dem breiten Lötaufsatz über die Pins der MCU fährt. Dabei wird nur sehr wenig Lötzinn verwendet, um keine Brücken zwischen zwei Pins zu erstellen.
 
 \subsubsection{Mängel der Erstversion und dessen Verbesserungen}
 Die Mängel der Erstversion werden hier aufgelistet und deren Verbesserung für die Zweitversion direkt erläutert.
@@ -47,4 +62,4 @@ Die Abstände wurden im Redesign massiv verringert.
 Durch das Ersetzen des Kippschalters mit einem anderen, welcher 2 Stromkreise gleichzeitig schaltet, konnte dieses Problem im Redesign behoben werden.
 \end{enumerate}
 Die Mängel wurden gemäss den Erläuterungen behoben und ein zweites PCB bestellt. Das eingetroffene PCB wies weiterhin Problem 1 auf, was erst zu Ratlosigkeit führte. Schnell konnte jedoch herausgefunden werden, dass der Hersteller des PCBs (JLCPCB) keine Blind Vias unterstützt, welche jedoch für die Verbindung zwischen Bauteil und Versorgungslayer im Design verwendet wurden. Es musste deshalb ein drittes PCB bei einem Hersteller bestellt werden, welches Blind Vias unterstützt. Auf der Webseite www.multi-circuit-boards.eu konnten Blind Vias als Option angekreuzt werden, weshalb bei diesem Hersteller das dritte PCB bestellt wurde. Bestellen musste dies jedoch die FHNW, da dieser Anbieter nur an Institutionen und Unternehmen liefert und die Projektteilnehmer die kosten eines PCBs von rund 280.- nicht auf sich nehmen konnten. \\[0.5cm]
-Das erfolgreich erhaltene dritte PCB wurde wie erläutert bestückt und getestet gemäss den dokumentierten Tests in Kapitel \ref{subsubsec:HW_Val}. Die Firmware konnte ebenso auf die MCU geflasht werden und funktioniert gemäss. \todo[inline]{Referenz zum Kapitel Firmwareverifikation} Die Wetterstation funktioniert soweit und benötigt lediglich ein Gehäuse, um präsentabel zu sein und um ein Betrieb im Freien zu ermöglichen. Auf diese Thematik wird im nächsten Kapitel eingegangen.
+Das erfolgreich erhaltene dritte PCB wurde wie erläutert bestückt und getestet gemäss den dokumentierten Tests in Kapitel \ref{subsubsec:HW_Val}. Die Wetterstation funktioniert soweit und benötigt lediglich ein Gehäuse, um präsentabel zu sein und um ein Betrieb im Freien zu ermöglichen. Auf diese Thematik wird im nächsten Kapitel eingegangen.

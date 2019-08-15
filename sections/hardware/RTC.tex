@@ -1,9 +1,9 @@
 \subsection{RTC}
 \label{subsec:RTC}
 Im vergangenen Kapitel (MCU) wurden bereits RC-Oszillatoren und Quarze erwähnt. Die RTC (Real Time Clock) beinhaltet ebenfalls einen Quarz, weshalb die RTC in diesem Kapitel näher erläutert wird.
-Die RTC wurde bereits während des Projekt 5 integriert und in dessen Fachbericht dokumentiert. Nachfolgender Text wurde übernommen, damit die Vollständigkeit gewahrt wird.
+Die RTC wurde bereits während des Projekt 5 integriert und in dessen Fachbericht dokumentiert. Nachfolgender, bereits bestehender Text wurde übernommen.
 
-\subsubsection{RTC - Projekt 5}
+\subsubsection{Bestehende RTC}
 Um die gewonnenen Messdaten mit einem Zeitstempel zu versehen, wird eine \textbf{RTC} (\textit{real time clock}) benötigt. Um eine möglichst kleine Abweichung zu haben, wird eine hohe Präzision vorausgesetzt. Ausserdem soll die \textbf{RTC} über das in Kapitel \ref{chap:Interfaces} erwähnte \textbf{I$^2$C}-Bus angesteuert werden. Aus diesen Gründen wurde der \textbf{DS3231} implementiert, da dieser als Präzisions-\textbf{I$^2$C}-\textbf{RTC} die Anforderungen erfüllt. Die hohe Präzision des \textbf{DS3231} wird mit einem internen Temperatursensor erreicht, welcher Temperaturbedingte Abweichungen des Oszillators kompensiert. Zu sehen ist der \textbf{DS3231} mit seinen Anschlüssen in Abbildung \ref{fig:DS3231}.
 
 \begin{figure}[h]

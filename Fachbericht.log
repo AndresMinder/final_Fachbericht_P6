@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  15 AUG 2019 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  15 AUG 2019 11:51
 entering extended mode
 **./Fachbericht.tex
 (Fachbericht.tex
@@ -1890,10 +1890,9 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (sections/einleitung/auftragsbeschreibung.aux) (sections/einleitung/ziele.aux)
 (sections/einleitung/Konzept/konzept.aux)
 (sections/firmware/development_environment.aux) (sections/firmware/uml.aux)
-(sections/firmware/validierung_firmware.aux) (sections/firmware/manual.aux)
-(sections/hardware/Uebersicht.aux) (sections/hardware/MCU.aux)
-(sections/hardware/RTC.aux) (sections/hardware/Sensoren.aux)
-(sections/hardware/Datenspeicherung.aux)
+(sections/firmware/manual.aux) (sections/hardware/Uebersicht.aux)
+(sections/hardware/MCU.aux) (sections/hardware/RTC.aux)
+(sections/hardware/Sensoren.aux) (sections/hardware/Datenspeicherung.aux)
 (sections/hardware/Kommunikationsmodule.aux)
 (sections/hardware/Energieversorgung.aux) (sections/hardware/PCB.aux)
 (sections/hardware/Gehaeuse.aux) (sections/abschluss/Konzeptvalidierung.aux)
@@ -2096,7 +2095,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 11.
 ("C:\Users\mknup\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<fhnwlogo.pdf, id=302, 183.81773pt x 28.4543pt>
+<fhnwlogo.pdf, id=314, 183.81773pt x 28.4543pt>
 File: fhnwlogo.pdf Graphic file (type pdf)
 <use fhnwlogo.pdf>
 Package pdftex.def Info: fhnwlogo.pdf  used on input line 17.
@@ -2200,7 +2199,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 \openout2 = `sections/einleitung/Konzept/konzept.aux'.
 
  (sections/einleitung/Konzept/konzept.tex
-<graphics/Konzeptdiagramme/Grundkonzept.PNG, id=462, 666.99188pt x 496.10344pt>
+<graphics/Konzeptdiagramme/Grundkonzept.PNG, id=477, 666.99188pt x 496.10344pt>
 
 File: graphics/Konzeptdiagramme/Grundkonzept.PNG Graphic file (type png)
 <use graphics/Konzeptdiagramme/Grundkonzept.PNG>
@@ -2222,7 +2221,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<graphics/Konzeptdiagramme/Sensoren.PNG, id=472, 423.08063pt x 353.82187pt>
+<graphics/Konzeptdiagramme/Sensoren.PNG, id=487, 423.08063pt x 353.82187pt>
 File: graphics/Konzeptdiagramme/Sensoren.PNG Graphic file (type png)
 <use graphics/Konzeptdiagramme/Sensoren.PNG>
 Package pdftex.def Info: graphics/Konzeptdiagramme/Sensoren.PNG  used on input 
@@ -2238,7 +2237,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<graphics/Konzeptdiagramme/rtc.PNG, id=474, 328.22626pt x 173.89969pt>
+<graphics/Konzeptdiagramme/rtc.PNG, id=489, 328.22626pt x 173.89969pt>
 File: graphics/Konzeptdiagramme/rtc.PNG Graphic file (type png)
 <use graphics/Konzeptdiagramme/rtc.PNG>
 Package pdftex.def Info: graphics/Konzeptdiagramme/rtc.PNG  used on input line 
@@ -2261,7 +2260,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<graphics/Konzeptdiagramme/Kommunikationsmodul.PNG, id=484, 484.81125pt x 286.0
+<graphics/Konzeptdiagramme/Kommunikationsmodul.PNG, id=499, 484.81125pt x 286.0
 6876pt>
 File: graphics/Konzeptdiagramme/Kommunikationsmodul.PNG Graphic file (type png)
 
@@ -2280,7 +2279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<graphics/Konzeptdiagramme/Energieversorgung.PNG, id=496, 758.835pt x 393.72093
+<graphics/Konzeptdiagramme/Energieversorgung.PNG, id=511, 758.835pt x 393.72093
 pt>
 File: graphics/Konzeptdiagramme/Energieversorgung.PNG Graphic file (type png)
 <use graphics/Konzeptdiagramme/Energieversorgung.PNG>
@@ -2342,7 +2341,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<graphics/ISP/avr_dragon.PNG, id=516, 445.665pt x 310.91156pt>
+<graphics/ISP/avr_dragon.PNG, id=531, 445.665pt x 310.91156pt>
 File: graphics/ISP/avr_dragon.PNG Graphic file (type png)
 <use graphics/ISP/avr_dragon.PNG>
 Package pdftex.def Info: graphics/ISP/avr_dragon.PNG  used on input line 10.
@@ -2364,7 +2363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<graphics/ISP/spi_header.PNG, id=531, 316.18124pt x 407.27156pt>
+<graphics/ISP/spi_header.PNG, id=546, 316.18124pt x 407.27156pt>
 File: graphics/ISP/spi_header.PNG Graphic file (type png)
 <use graphics/ISP/spi_header.PNG>
 Package pdftex.def Info: graphics/ISP/spi_header.PNG  used on input line 32.
@@ -2374,7 +2373,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 33.
 See the caption package documentation for explanation.
 
-<graphics/ISP/spi_header_anschluss.PNG, id=534, 321.45094pt x 215.30438pt>
+<graphics/ISP/spi_header_anschluss.PNG, id=549, 321.45094pt x 215.30438pt>
 File: graphics/ISP/spi_header_anschluss.PNG Graphic file (type png)
 <use graphics/ISP/spi_header_anschluss.PNG>
 Package pdftex.def Info: graphics/ISP/spi_header_anschluss.PNG  used on input l
@@ -2395,7 +2394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 \openout2 = `sections/firmware/uml.aux'.
 
  (sections/firmware/uml.tex
-<graphics/UML/UML_Diagramm_picture.PNG, id=547, 763.85374pt x 846.16125pt>
+<graphics/UML/UML_Diagramm_picture.PNG, id=562, 763.85374pt x 846.16125pt>
 File: graphics/UML/UML_Diagramm_picture.PNG Graphic file (type png)
 <use graphics/UML/UML_Diagramm_picture.PNG>
 Package pdftex.def Info: graphics/UML/UML_Diagramm_picture.PNG  used on input l
@@ -2420,35 +2419,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 )) [15]
-\openout2 = `sections/firmware/validierung_firmware.aux'.
+\openout2 = `sections/firmware/manual.aux'.
 
- (sections/firmware/validierung_firmware.tex) [16
+ (sections/firmware/manual.tex) [16
+
+
+] [17
 
 
 ]
-\openout2 = `sections/firmware/manual.aux'.
-
-
-(sections/firmware/manual.tex) [17
-
-
-] [18
-
-
-] [19]
 \openout2 = `sections/hardware/Uebersicht.aux'.
 
- (sections/hardware/Uebersicht.tex
-<graphics/HW_Uebersicht/PCB_Unbestueckt.jpg, id=582, 426.393pt x 368.0952pt>
+
+(sections/hardware/Uebersicht.tex
+<graphics/HW_Uebersicht/PCB_Unbestueckt.jpg, id=589, 426.393pt x 368.0952pt>
 File: graphics/HW_Uebersicht/PCB_Unbestueckt.jpg Graphic file (type jpg)
 <use graphics/HW_Uebersicht/PCB_Unbestueckt.jpg>
 Package pdftex.def Info: graphics/HW_Uebersicht/PCB_Unbestueckt.jpg  used on in
 put line 7.
 (pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
-[20
+ [18
 
  <./graphics/HW_Uebersicht/PCB_Unbestueckt.jpg>]
-<graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg, id=590, 426.393pt x 368.09
+<graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg, id=596, 426.393pt x 368.09
 52pt>
 File: graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg Graphic file (type jpg
 )
@@ -2456,7 +2449,7 @@ File: graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg Graphic file (type jpg
 Package pdftex.def Info: graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg  us
 ed on input line 17.
 (pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
-<graphics/HW_Uebersicht/PCB_USB_SIM808.jpg, id=592, 426.393pt x 368.0952pt>
+<graphics/HW_Uebersicht/PCB_USB_SIM808.jpg, id=598, 426.393pt x 368.0952pt>
 File: graphics/HW_Uebersicht/PCB_USB_SIM808.jpg Graphic file (type jpg)
 <use graphics/HW_Uebersicht/PCB_USB_SIM808.jpg>
 Package pdftex.def Info: graphics/HW_Uebersicht/PCB_USB_SIM808.jpg  used on inp
@@ -2470,9 +2463,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg>] [22 <./graphics/HW_
+[19 <./graphics/HW_Uebersicht/PCB_Sensoren_MCU_SD_RTC.jpg>] [20 <./graphics/HW_
 Uebersicht/PCB_USB_SIM808.jpg>]
-<graphics/HW_Uebersicht/PCB_Energieversorgung.jpg, id=606, 426.393pt x 368.0952
+<graphics/HW_Uebersicht/PCB_Energieversorgung.jpg, id=613, 426.393pt x 368.0952
 pt>
 File: graphics/HW_Uebersicht/PCB_Energieversorgung.jpg Graphic file (type jpg)
 <use graphics/HW_Uebersicht/PCB_Energieversorgung.jpg>
@@ -2480,11 +2473,11 @@ Package pdftex.def Info: graphics/HW_Uebersicht/PCB_Energieversorgung.jpg  used
  on input line 34.
 (pdftex.def)             Requested size: 450.69414pt x 389.08379pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 40--90
+Underfull \hbox (badness 10000) in paragraph at lines 40--89
 
  []
 
-[23 <./graphics/HW_Uebersicht/PCB_Energieversorgung.jpg>]
+[21 <./graphics/HW_Uebersicht/PCB_Energieversorgung.jpg>]
 \openout2 = `sections/hardware/MCU.aux'.
 
 
@@ -2498,7 +2491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<graphics/MCU/arduino_mega.png, id=614, 640.64343pt x 321.45094pt>
+<graphics/MCU/arduino_mega.png, id=621, 640.64343pt x 321.45094pt>
 File: graphics/MCU/arduino_mega.png Graphic file (type png)
 <use graphics/MCU/arduino_mega.png>
 Package pdftex.def Info: graphics/MCU/arduino_mega.png  used on input line 14.
@@ -2508,11 +2501,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 15.
 See the caption package documentation for explanation.
 
-[24
+[22
 
 
  <./graphics/MCU/arduino_mega.png>]
-<graphics/MCU/ATMega2560.jpg, id=628, 225.84375pt x 225.84375pt>
+<graphics/MCU/ATMega2560.jpg, id=635, 225.84375pt x 225.84375pt>
 File: graphics/MCU/ATMega2560.jpg Graphic file (type jpg)
 <use graphics/MCU/ATMega2560.jpg>
 Package pdftex.def Info: graphics/MCU/ATMega2560.jpg  used on input line 50.
@@ -2523,15 +2516,15 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 51.
 See the caption package documentation for explanation.
 
-) [25 <./graphics/MCU/ATMega2560.jpg>]
+) [23 <./graphics/MCU/ATMega2560.jpg>]
 \openout2 = `sections/hardware/RTC.aux'.
 
  (sections/hardware/RTC.tex
 
-LaTeX Warning: Reference `chap:Interfaces' on page 26 undefined on input line 7
+LaTeX Warning: Reference `chap:Interfaces' on page 24 undefined on input line 7
 .
 
-<graphics/DS3231.png, id=637, 178.41656pt x 197.23688pt>
+<graphics/DS3231.png, id=644, 178.41656pt x 197.23688pt>
 File: graphics/DS3231.png Graphic file (type png)
 <use graphics/DS3231.png>
 Package pdftex.def Info: graphics/DS3231.png  used on input line 11.
@@ -2541,7 +2534,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-[26
+[24
 
 
  <./graphics/DS3231.png>]
@@ -2549,39 +2542,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-) [27]
+) [25]
 \openout2 = `sections/hardware/Sensoren.aux'.
 
  (sections/hardware/Sensoren.tex
-<graphics/Kipploeffel.png, id=658, 564.1075pt x 363.3575pt>
+<graphics/Kipploeffel.png, id=664, 564.1075pt x 363.3575pt>
 File: graphics/Kipploeffel.png Graphic file (type png)
 <use graphics/Kipploeffel.png>
 Package pdftex.def Info: graphics/Kipploeffel.png  used on input line 14.
 (pdftex.def)             Requested size: 364.19664pt x 234.59387pt.
- [28
+ [26
 
 
  <./graphics/Kipploeffel.png>]
-<graphics/Etappe1.jpg, id=668, 3130.69624pt x 1898.09125pt>
+<graphics/Etappe1.jpg, id=675, 3130.69624pt x 1898.09125pt>
 File: graphics/Etappe1.jpg Graphic file (type jpg)
 <use graphics/Etappe1.jpg>
 Package pdftex.def Info: graphics/Etappe1.jpg  used on input line 33.
 (pdftex.def)             Requested size: 364.19664pt x 220.78116pt.
 
-[29 <./graphics/Etappe1.jpg>]
-<graphics/Etappe2.jpg, id=676, 3434.8325pt x 2650.90375pt>
+[27 <./graphics/Etappe1.jpg>]
+<graphics/Etappe2.jpg, id=683, 3434.8325pt x 2650.90375pt>
 File: graphics/Etappe2.jpg Graphic file (type jpg)
 <use graphics/Etappe2.jpg>
 Package pdftex.def Info: graphics/Etappe2.jpg  used on input line 47.
 (pdftex.def)             Requested size: 364.19664pt x 281.043pt.
- [30 <./graphics/Etappe2.jpg>]
-<graphics/KippSchalt.jpg, id=683, 2007.5pt x 1971.365pt>
+ [28 <./graphics/Etappe2.jpg>]
+<graphics/KippSchalt.jpg, id=690, 2007.5pt x 1971.365pt>
 File: graphics/KippSchalt.jpg Graphic file (type jpg)
 <use graphics/KippSchalt.jpg>
 Package pdftex.def Info: graphics/KippSchalt.jpg  used on input line 65.
 (pdftex.def)             Requested size: 159.3382pt x 156.44904pt.
- [31 <./graphics/KippSchalt.jpg>]
-<graphics/ombrometer/IMG_20190118_110027.jpg, id=691, 3982.88pt x 2987.16pt>
+ [29 <./graphics/KippSchalt.jpg>]
+<graphics/ombrometer/IMG_20190118_110027.jpg, id=698, 3982.88pt x 2987.16pt>
 File: graphics/ombrometer/IMG_20190118_110027.jpg Graphic file (type jpg)
 <use graphics/ombrometer/IMG_20190118_110027.jpg>
 Package pdftex.def Info: graphics/ombrometer/IMG_20190118_110027.jpg  used on i
@@ -2607,7 +2600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<graphics/Anemometer/anemometer.png, id=696, 198.7425pt x 138.5175pt>
+<graphics/Anemometer/anemometer.png, id=703, 198.7425pt x 138.5175pt>
 File: graphics/Anemometer/anemometer.png Graphic file (type png)
 <use graphics/Anemometer/anemometer.png>
 Package pdftex.def Info: graphics/Anemometer/anemometer.png  used on input line
@@ -2618,7 +2611,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 111.
 See the caption package documentation for explanation.
 
-<graphics/Anemometer/rj_11_anschlussstecker.png, id=699, 330.48468pt x 232.6190
+<graphics/Anemometer/rj_11_anschlussstecker.png, id=706, 330.48468pt x 232.6190
 6pt>
 File: graphics/Anemometer/rj_11_anschlussstecker.png Graphic file (type png)
 <use graphics/Anemometer/rj_11_anschlussstecker.png>
@@ -2630,7 +2623,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 115.
 See the caption package documentation for explanation.
 
-<graphics/Anemometer/schaltung_anemometer.png, id=700, 483.30562pt x 219.06844p
+<graphics/Anemometer/schaltung_anemometer.png, id=707, 483.30562pt x 219.06844p
 t>
 File: graphics/Anemometer/schaltung_anemometer.png Graphic file (type png)
 <use graphics/Anemometer/schaltung_anemometer.png>
@@ -2642,7 +2635,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 119.
 See the caption package documentation for explanation.
 
-<graphics/Anemometer/oszilloskop_anenometer_puls.png, id=701, 674.52pt x 516.42
+<graphics/Anemometer/oszilloskop_anenometer_puls.png, id=708, 674.52pt x 516.42
 938pt>
 File: graphics/Anemometer/oszilloskop_anenometer_puls.png Graphic file (type pn
 g)
@@ -2655,7 +2648,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 123.
 See the caption package documentation for explanation.
 
-[32 <./graphics/ombrometer/IMG_20190118_110027.jpg>] [33 <./graphics/Anemometer
+[30 <./graphics/ombrometer/IMG_20190118_110027.jpg>] [31 <./graphics/Anemometer
 /anemometer.png> <./graphics/Anemometer/rj_11_anschlussstecker.png> <./graphics
 /Anemometer/schaltung_anemometer.png> <./graphics/Anemometer/oszilloskop_anenom
 eter_puls.png>]
@@ -2668,7 +2661,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-<graphics/windrichtungsgeber/interne_schaltung.PNG, id=727, 438.13687pt x 534.4
+<graphics/windrichtungsgeber/interne_schaltung.PNG, id=733, 438.13687pt x 534.4
 9687pt>
 File: graphics/windrichtungsgeber/interne_schaltung.PNG Graphic file (type png)
 
@@ -2686,8 +2679,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-[34 <./graphics/windrichtungsgeber/interne_schaltung.PNG>]
-<graphics/windrichtungsgeber/aeussere_beschaltung.PNG, id=744, 130.98938pt x 15
+[32 <./graphics/windrichtungsgeber/interne_schaltung.PNG>]
+<graphics/windrichtungsgeber/aeussere_beschaltung.PNG, id=751, 130.98938pt x 15
 7.33781pt>
 File: graphics/windrichtungsgeber/aeussere_beschaltung.PNG Graphic file (type p
 ng)
@@ -2701,7 +2694,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 193.
 See the caption package documentation for explanation.
 
-<graphics/windrichtungsgeber/windrichtungsgeber.PNG, id=747, 475.7775pt x 316.1
+<graphics/windrichtungsgeber/windrichtungsgeber.PNG, id=754, 475.7775pt x 316.1
 8124pt>
 File: graphics/windrichtungsgeber/windrichtungsgeber.PNG Graphic file (type png
 )
@@ -2740,7 +2733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-<graphics/bme280/bme280.PNG, id=751, 301.125pt x 230.36063pt>
+<graphics/bme280/bme280.PNG, id=758, 301.125pt x 230.36063pt>
 File: graphics/bme280/bme280.PNG Graphic file (type png)
 <use graphics/bme280/bme280.PNG>
 Package pdftex.def Info: graphics/bme280/bme280.PNG  used on input line 231.
@@ -2750,10 +2743,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 232.
 See the caption package documentation for explanation.
 
-[35 <./graphics/windrichtungsgeber/aeussere_beschaltung.PNG> <./graphics/windri
-chtungsgeber/windrichtungsgeber.PNG> <./graphics/bme280/bme280.PNG>] [36]
+[33 <./graphics/windrichtungsgeber/aeussere_beschaltung.PNG> <./graphics/windri
+chtungsgeber/windrichtungsgeber.PNG> <./graphics/bme280/bme280.PNG>] [34]
 
-LaTeX Warning: Reference `part:Firmware' on page 37 undefined on input line 340
+LaTeX Warning: Reference `part:Firmware' on page 35 undefined on input line 340
 .
 
 
@@ -2761,29 +2754,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-<graphics/TSL2561/TSL2561_Breakout.JPG, id=789, 973.6375pt x 730.73pt>
+<graphics/TSL2561/TSL2561_Breakout.JPG, id=796, 973.6375pt x 730.73pt>
 File: graphics/TSL2561/TSL2561_Breakout.JPG Graphic file (type jpg)
 <use graphics/TSL2561/TSL2561_Breakout.JPG>
 Package pdftex.def Info: graphics/TSL2561/TSL2561_Breakout.JPG  used on input l
 ine 344.
 (pdftex.def)             Requested size: 227.62204pt x 170.82956pt.
-[37 <./graphics/TSL2561/TSL2561_Breakout.JPG>]
+[35 <./graphics/TSL2561/TSL2561_Breakout.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
-<graphics/BME280/BME280_Breakout.JPG, id=803, 973.6375pt x 730.73pt>
+<graphics/BME280/BME280_Breakout.JPG, id=810, 973.6375pt x 730.73pt>
 File: graphics/BME280/BME280_Breakout.JPG Graphic file (type jpg)
 <use graphics/BME280/BME280_Breakout.JPG>
 Package pdftex.def Info: graphics/BME280/BME280_Breakout.JPG  used on input lin
 e 369.
 (pdftex.def)             Requested size: 227.62204pt x 170.82956pt.
-) [38 <./graphics/BME280/BME280_Breakout.JPG>]
+) [36 <./graphics/BME280/BME280_Breakout.JPG>]
 \openout2 = `sections/hardware/Datenspeicherung.aux'.
 
 
 (sections/hardware/Datenspeicherung.tex
-<graphics/Datenspeicherung/micro_sd_card_16GB.png, id=813, 155.58125pt x 113.42
+<graphics/Datenspeicherung/micro_sd_card_16GB.png, id=819, 155.58125pt x 113.42
 375pt>
 File: graphics/Datenspeicherung/micro_sd_card_16GB.png Graphic file (type png)
 <use graphics/Datenspeicherung/micro_sd_card_16GB.png>
@@ -2810,7 +2803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 LaTeX Warning: Command \" invalid in math mode on input line 26.
 
 
-LaTeX Warning: Reference `fig:datenausgabe' on page 39 undefined on input line 
+LaTeX Warning: Reference `fig:datenausgabe' on page 37 undefined on input line 
 29.
 
 
@@ -2828,7 +2821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[39
+[37
 
 
  <./graphics/Datenspeicherung/micro_sd_card_16GB.png>]
@@ -2836,7 +2829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-) [40]
+) [38]
 \openout2 = `sections/hardware/Kommunikationsmodule.aux'.
 
  (sections/hardware/Kommunikationsmodule.tex
@@ -2849,7 +2842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<graphics/SIM808/SIM808.JPG, id=839, 208.98074pt x 205.9695pt>
+<graphics/SIM808/SIM808.JPG, id=846, 208.98074pt x 205.9695pt>
 File: graphics/SIM808/SIM808.JPG Graphic file (type jpg)
 <use graphics/SIM808/SIM808.JPG>
 Package pdftex.def Info: graphics/SIM808/SIM808.JPG  used on input line 11.
@@ -2859,18 +2852,18 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-[41
+[39
 
 
- <./graphics/SIM808/SIM808.JPG>]) [42]
+ <./graphics/SIM808/SIM808.JPG>]) [40]
 \openout2 = `sections/hardware/Energieversorgung.aux'.
 
 
 (sections/hardware/Energieversorgung.tex
 
-LaTeX Warning: Reference `sec:Konzept' on page 43 undefined on input line 3.
+LaTeX Warning: Reference `sec:Konzept' on page 41 undefined on input line 3.
 
-[43
+[41
 
 
 ]
@@ -2878,29 +2871,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<graphics/Energieversorgung/Solarpanel.JPG, id=879, 292.09125pt x 219.219pt>
+<graphics/Energieversorgung/Solarpanel.JPG, id=886, 292.09125pt x 219.219pt>
 File: graphics/Energieversorgung/Solarpanel.JPG Graphic file (type jpg)
 <use graphics/Energieversorgung/Solarpanel.JPG>
 Package pdftex.def Info: graphics/Energieversorgung/Solarpanel.JPG  used on inp
 ut line 75.
 (pdftex.def)             Requested size: 182.09485pt x 136.67033pt.
-[44 <./graphics/Energieversorgung/Solarpanel.JPG>]
+[42 <./graphics/Energieversorgung/Solarpanel.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-<graphics/Energieversorgung/ChargePump.JPG, id=892, 513.71925pt x 157.18726pt>
+<graphics/Energieversorgung/ChargePump.JPG, id=898, 513.71925pt x 157.18726pt>
 File: graphics/Energieversorgung/ChargePump.JPG Graphic file (type jpg)
 <use graphics/Energieversorgung/ChargePump.JPG>
 Package pdftex.def Info: graphics/Energieversorgung/ChargePump.JPG  used on inp
 ut line 87.
 (pdftex.def)             Requested size: 455.24408pt x 139.30138pt.
-[45 <./graphics/Energieversorgung/ChargePump.JPG>]) [46]
+[43 <./graphics/Energieversorgung/ChargePump.JPG>]) [44]
 \openout2 = `sections/hardware/PCB.aux'.
 
 
 (sections/hardware/PCB.tex
-<graphics/HW_Val/THT_Loeten.jpg, id=906, 2165.84157pt x 1786.42406pt>
+<graphics/HW_Val/THT_Loeten.jpg, id=913, 2165.84157pt x 1786.42406pt>
 File: graphics/HW_Val/THT_Loeten.jpg Graphic file (type jpg)
 <use graphics/HW_Val/THT_Loeten.jpg>
 Package pdftex.def Info: graphics/HW_Val/THT_Loeten.jpg  used on input line 11.
@@ -2912,7 +2905,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 12.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/SMD_Loeten.jpg, id=908, 1470.99562pt x 1572.6253pt>
+<graphics/HW_Val/SMD_Loeten.jpg, id=915, 1470.99562pt x 1572.6253pt>
 File: graphics/HW_Val/SMD_Loeten.jpg Graphic file (type jpg)
 <use graphics/HW_Val/SMD_Loeten.jpg>
 Package pdftex.def Info: graphics/HW_Val/SMD_Loeten.jpg  used on input line 21.
@@ -2928,25 +2921,56 @@ Underfull \hbox (badness 1226) in paragraph at lines 22--22
 []\T1/lmr/bx/n/10 Abbildung 3.28: |[]\T1/lmr/m/n/10 Das L�-ten ei-nes SMD-
  []
 
-[47
+[45
 
 
- <./graphics/HW_Val/THT_Loeten.jpg>] [48 <./graphics/HW_Val/SMD_Loeten.jpg>]) [
-49]
+ <./graphics/HW_Val/THT_Loeten.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+<graphics/HW_Val/MCU_Prep.jpg, id=923, 1961.82938pt x 1879.77281pt>
+File: graphics/HW_Val/MCU_Prep.jpg Graphic file (type jpg)
+<use graphics/HW_Val/MCU_Prep.jpg>
+Package pdftex.def Info: graphics/HW_Val/MCU_Prep.jpg  used on input line 31.
+(pdftex.def)             Requested size: 200.76352pt x 192.3481pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 32.
+See the caption package documentation for explanation.
+
+<graphics/HW_Val/MCU_Loeten.jpg, id=924, 2005.4925pt x 1855.68282pt>
+File: graphics/HW_Val/MCU_Loeten.jpg Graphic file (type jpg)
+<use graphics/HW_Val/MCU_Loeten.jpg>
+Package pdftex.def Info: graphics/HW_Val/MCU_Loeten.jpg  used on input line 37.
+
+(pdftex.def)             Requested size: 200.76352pt x 185.74904pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 38.
+See the caption package documentation for explanation.
+
+[46 <./graphics/HW_Val/SMD_Loeten.jpg> <./graphics/HW_Val/MCU_Prep.jpg> <./grap
+hics/HW_Val/MCU_Loeten.jpg>]
+
+LaTeX Warning: Reference `subsubsec:HW_Val' on page 47 undefined on input line 
+65.
+
+) [47] [48]
 \openout2 = `sections/hardware/Gehaeuse.aux'.
 
  (sections/hardware/Gehaeuse.tex
-<graphics/Gehaeuse/PCB_Dimensionen.jpg, id=935, 426.393pt x 368.0952pt>
+<graphics/Gehaeuse/PCB_Dimensionen.jpg, id=951, 426.393pt x 368.0952pt>
 File: graphics/Gehaeuse/PCB_Dimensionen.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/PCB_Dimensionen.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/PCB_Dimensionen.jpg  used on input l
 ine 10.
 (pdftex.def)             Requested size: 409.71689pt x 353.70998pt.
- [50
+ [49
 
 
- <./graphics/Gehaeuse/PCB_Dimensionen.jpg>] [51]
-<graphics/Gehaeuse/Design_Boden.jpg, id=947, 712.16063pt x 469.00218pt>
+ <./graphics/Gehaeuse/PCB_Dimensionen.jpg>] [50]
+<graphics/Gehaeuse/Design_Boden.jpg, id=963, 712.16063pt x 469.00218pt>
 File: graphics/Gehaeuse/Design_Boden.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Boden.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Boden.jpg  used on input line
@@ -2957,7 +2981,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<graphics/Gehaeuse/Design_Boden_Schrauben.jpg, id=950, 499.8675pt x 458.46281pt
+<graphics/Gehaeuse/Design_Boden_Schrauben.jpg, id=966, 499.8675pt x 458.46281pt
 >
 File: graphics/Gehaeuse/Design_Boden_Schrauben.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Boden_Schrauben.jpg>
@@ -2969,24 +2993,24 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 37.
 See the caption package documentation for explanation.
 
-[52 <./graphics/Gehaeuse/Design_Boden.jpg> <./graphics/Gehaeuse/Design_Boden_Sc
+[51 <./graphics/Gehaeuse/Design_Boden.jpg> <./graphics/Gehaeuse/Design_Boden_Sc
 hrauben.jpg>]
-<graphics/Gehaeuse/Design_Boden_Aussparungen.jpg, id=957, 410.2828pt x 326.7206
+<graphics/Gehaeuse/Design_Boden_Aussparungen.jpg, id=973, 410.2828pt x 326.7206
 3pt>
 File: graphics/Gehaeuse/Design_Boden_Aussparungen.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Boden_Aussparungen.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_Aussparungen.jpg  used 
 on input line 44.
 (pdftex.def)             Requested size: 227.62204pt x 181.26228pt.
-<graphics/Gehaeuse/Design_Boden_BME.jpg, id=959, 621.82312pt x 443.40656pt>
+<graphics/Gehaeuse/Design_Boden_BME.jpg, id=975, 621.82312pt x 443.40656pt>
 File: graphics/Gehaeuse/Design_Boden_BME.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Boden_BME.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_BME.jpg  used on input 
 line 52.
 (pdftex.def)             Requested size: 318.66946pt x 227.23718pt.
- [53 <./graphics/Gehaeuse/Design_Boden_Aussparungen.jpg> <./graphics/Gehaeuse/D
+ [52 <./graphics/Gehaeuse/Design_Boden_Aussparungen.jpg> <./graphics/Gehaeuse/D
 esign_Boden_BME.jpg>]
-<graphics/Gehaeuse/Design_Deckel.jpg, id=967, 666.23906pt x 468.24937pt>
+<graphics/Gehaeuse/Design_Deckel.jpg, id=983, 666.23906pt x 468.24937pt>
 File: graphics/Gehaeuse/Design_Deckel.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Deckel.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel.jpg  used on input lin
@@ -2997,7 +3021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jpg, id=970, 334.24875pt x
+<graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jpg, id=986, 334.24875pt x
  271.76532pt>
 File: graphics/Gehaeuse/Design_Deckel_Schraubenversenkung.jpg Graphic file (typ
 e jpg)
@@ -3010,7 +3034,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 74.
 See the caption package documentation for explanation.
 
-<graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg, id=971, 632.3625pt x 4
+<graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg, id=987, 632.3625pt x 4
 04.26031pt>
 File: graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg Graphic file (type
  jpg)
@@ -3021,17 +3045,17 @@ Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54 <./graphics/Gehaeuse/Design_Deckel.jpg> <./graphics/Gehaeuse/Design_Deckel_
+[53 <./graphics/Gehaeuse/Design_Deckel.jpg> <./graphics/Gehaeuse/Design_Deckel_
 Schraubenversenkung.jpg>]
-<graphics/Gehaeuse/Design_Deckel_TSL.jpg, id=979, 380.17032pt x 456.95718pt>
+<graphics/Gehaeuse/Design_Deckel_TSL.jpg, id=995, 380.17032pt x 456.95718pt>
 File: graphics/Gehaeuse/Design_Deckel_TSL.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Deckel_TSL.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_TSL.jpg  used on input
  line 88.
 (pdftex.def)             Requested size: 227.62204pt x 273.60466pt.
- [55 <./graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg> <./graphics/Geh
+ [54 <./graphics/Gehaeuse/Design_Deckel_BMEundAussparungen.jpg> <./graphics/Geh
 aeuse/Design_Deckel_TSL.jpg>]
-<graphics/Gehaeuse/Design_Boden_Rand.jpg, id=987, 335.75438pt x 268.00125pt>
+<graphics/Gehaeuse/Design_Boden_Rand.jpg, id=1003, 335.75438pt x 268.00125pt>
 File: graphics/Gehaeuse/Design_Boden_Rand.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Boden_Rand.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Boden_Rand.jpg  used on input
@@ -3043,7 +3067,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 97.
 See the caption package documentation for explanation.
 
-<graphics/Gehaeuse/Design_Deckel_Rand.jpg, id=988, 318.43968pt x 242.40562pt>
+<graphics/Gehaeuse/Design_Deckel_Rand.jpg, id=1004, 318.43968pt x 242.40562pt>
 File: graphics/Gehaeuse/Design_Deckel_Rand.jpg Graphic file (type jpg)
 <use graphics/Gehaeuse/Design_Deckel_Rand.jpg>
 Package pdftex.def Info: graphics/Gehaeuse/Design_Deckel_Rand.jpg  used on inpu
@@ -3054,318 +3078,334 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 103.
 See the caption package documentation for explanation.
 
-) [56 <./graphics/Gehaeuse/Design_Boden_Rand.jpg> <./graphics/Gehaeuse/Design_D
-eckel_Rand.jpg>] [57
+) [55 <./graphics/Gehaeuse/Design_Boden_Rand.jpg> <./graphics/Gehaeuse/Design_D
+eckel_Rand.jpg>] [56
 
 
-]
+] [57]
 \openout2 = `sections/abschluss/Konzeptvalidierung.aux'.
 
  (sections/abschluss/Konzeptvalidierung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-LaTeX Warning: Citation 'FLUKE' on page 58 undefined on input line 9.
+LaTeX Warning: Citation 'FLUKE' on page 58 undefined on input line 10.
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 9--10
+Underfull \hbox (badness 1755) in paragraph at lines 10--11
 \T1/lmr/m/n/10.95 einen wird ein FLU-KE 117 (Ab-bil-
  []
 
-<graphics/HW_Val/Fluke.jpg, id=1003, 3854.4pt x 5139.2pt>
+<graphics/HW_Val/Fluke.jpg, id=1024, 3854.4pt x 5139.2pt>
 File: graphics/HW_Val/Fluke.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Fluke.jpg>
-Package pdftex.def Info: graphics/HW_Val/Fluke.jpg  used on input line 13.
+Package pdftex.def Info: graphics/HW_Val/Fluke.jpg  used on input line 14.
 (pdftex.def)             Requested size: 155.69704pt x 207.57185pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 14.
+(caption)                particular \caption on input line 15.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 ...iche RMS Multimeter FLUKE 117 mit Sonden.}
+l.15 ...iche RMS Multimeter FLUKE 117 mit Sonden.}
                                                   
-<graphics/HW_Val/KO.jpg, id=1004, 5139.2pt x 3854.4pt>
+<graphics/HW_Val/KO.jpg, id=1025, 5139.2pt x 3854.4pt>
 File: graphics/HW_Val/KO.jpg Graphic file (type jpg)
 <use graphics/HW_Val/KO.jpg>
-Package pdftex.def Info: graphics/HW_Val/KO.jpg  used on input line 20.
+Package pdftex.def Info: graphics/HW_Val/KO.jpg  used on input line 21.
 (pdftex.def)             Requested size: 200.76352pt x 150.56213pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 21.
+(caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 \captionof{figure}{TDS 210 von Tektronix.}
+l.22 \captionof{figure}{TDS 210 von Tektronix.}
                                                
-<graphics/HW_Val/PowerSupply.jpg, id=1005, 5139.2pt x 3854.4pt>
+<graphics/HW_Val/PowerSupply.jpg, id=1026, 5139.2pt x 3854.4pt>
 File: graphics/HW_Val/PowerSupply.jpg Graphic file (type jpg)
 <use graphics/HW_Val/PowerSupply.jpg>
-Package pdftex.def Info: graphics/HW_Val/PowerSupply.jpg  used on input line 26
+Package pdftex.def Info: graphics/HW_Val/PowerSupply.jpg  used on input line 27
 .
 (pdftex.def)             Requested size: 200.76352pt x 150.56213pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 27.
+(caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...onof{figure}{Das verwendete Speisegerät.}
+l.28 ...onof{figure}{Das verwendete Speisegerät.}
                                                    [58
 
  <./graphics/HW_Val/Fluke.jpg> <./graphics/HW_Val/KO.jpg> <./graphics/HW_Val/Po
-werSupply.jpg>]
-<graphics/HW_Val/Kontinuitaet.jpg, id=1012, 409.53pt x 350.81062pt>
+werSupply.jpg>] [59]
+<graphics/HW_Val/Kontinuitaet.jpg, id=1037, 409.53pt x 350.81062pt>
 File: graphics/HW_Val/Kontinuitaet.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Kontinuitaet.jpg>
-Package pdftex.def Info: graphics/HW_Val/Kontinuitaet.jpg  used on input line 3
-9.
+Package pdftex.def Info: graphics/HW_Val/Kontinuitaet.jpg  used on input line 4
+0.
 (pdftex.def)             Requested size: 155.69704pt x 133.37364pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 40.
+(caption)                particular \caption on input line 41.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/Verbindungstestpunkte.jpg, id=1013, 426.393pt x 368.0952pt>
+<graphics/HW_Val/Verbindungstestpunkte.jpg, id=1038, 426.393pt x 368.0952pt>
 File: graphics/HW_Val/Verbindungstestpunkte.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Verbindungstestpunkte.jpg>
 Package pdftex.def Info: graphics/HW_Val/Verbindungstestpunkte.jpg  used on inp
-ut line 45.
+ut line 46.
 (pdftex.def)             Requested size: 409.71689pt x 353.70998pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[59 <./graphics/HW_Val/Kontinuitaet.jpg> <./graphics/HW_Val/Verbindungstestpunk
+[60 <./graphics/HW_Val/Kontinuitaet.jpg> <./graphics/HW_Val/Verbindungstestpunk
 te.jpg>]
-<graphics/HW_Val/Test_Eingangsspannung.jpg, id=1021, 1315.16344pt x 1201.48875p
+<graphics/HW_Val/Test_Eingangsspannung.jpg, id=1046, 1315.16344pt x 1201.48875p
 t>
 File: graphics/HW_Val/Test_Eingangsspannung.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Test_Eingangsspannung.jpg>
 Package pdftex.def Info: graphics/HW_Val/Test_Eingangsspannung.jpg  used on inp
-ut line 56.
+ut line 57.
 (pdftex.def)             Requested size: 200.76352pt x 183.40552pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 57.
+(caption)                particular \caption on input line 58.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 ...t zur Überprüfung der Eingangsspannung.}
+l.58 ...t zur Überprüfung der Eingangsspannung.}
                                                   
-<graphics/HW_Val/Ergebnis_Eingangsspannung.jpg, id=1022, 2839.60875pt x 2218.53
+<graphics/HW_Val/Ergebnis_Eingangsspannung.jpg, id=1047, 2839.60875pt x 2218.53
 844pt>
 File: graphics/HW_Val/Ergebnis_Eingangsspannung.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Ergebnis_Eingangsspannung.jpg>
 Package pdftex.def Info: graphics/HW_Val/Ergebnis_Eingangsspannung.jpg  used on
- input line 62.
+ input line 63.
 (pdftex.def)             Requested size: 200.76352pt x 156.8369pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 63.
+(caption)                particular \caption on input line 64.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/Test_ChargePump.jpg, id=1023, 1085.55562pt x 1023.825pt>
+<graphics/HW_Val/Test_ChargePump.jpg, id=1048, 1085.55562pt x 1023.825pt>
 File: graphics/HW_Val/Test_ChargePump.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Test_ChargePump.jpg>
 Package pdftex.def Info: graphics/HW_Val/Test_ChargePump.jpg  used on input lin
-e 69.
+e 70.
 (pdftex.def)             Requested size: 200.76352pt x 189.34216pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 70.
+(caption)                particular \caption on input line 71.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/Ergebnis_ChargePump.jpg, id=1024, 2845.63126pt x 2200.47093pt>
+<graphics/HW_Val/Ergebnis_ChargePump.jpg, id=1049, 2845.63126pt x 2200.47093pt>
 
 File: graphics/HW_Val/Ergebnis_ChargePump.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Ergebnis_ChargePump.jpg>
 Package pdftex.def Info: graphics/HW_Val/Ergebnis_ChargePump.jpg  used on input
- line 75.
+ line 76.
 (pdftex.def)             Requested size: 200.76352pt x 155.22388pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 76.
+(caption)                particular \caption on input line 77.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/Test_Ausgangsspannung.jpg, id=1025, 1381.41093pt x 1155.56718p
+<graphics/HW_Val/Test_Ausgangsspannung.jpg, id=1050, 1381.41093pt x 1155.56718p
 t>
 File: graphics/HW_Val/Test_Ausgangsspannung.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Test_Ausgangsspannung.jpg>
 Package pdftex.def Info: graphics/HW_Val/Test_Ausgangsspannung.jpg  used on inp
-ut line 82.
+ut line 83.
 (pdftex.def)             Requested size: 200.76352pt x 167.93205pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 83.
+(caption)                particular \caption on input line 84.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/Ergebnis_Ausgangsspannung.jpg, id=1026, 2878.00218pt x 2214.02
+<graphics/HW_Val/Ergebnis_Ausgangsspannung.jpg, id=1051, 2878.00218pt x 2214.02
 156pt>
 File: graphics/HW_Val/Ergebnis_Ausgangsspannung.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Ergebnis_Ausgangsspannung.jpg>
 Package pdftex.def Info: graphics/HW_Val/Ergebnis_Ausgangsspannung.jpg  used on
- input line 88.
+ input line 89.
 (pdftex.def)             Requested size: 200.76352pt x 154.42302pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 89.
+(caption)                particular \caption on input line 90.
 See the caption package documentation for explanation.
 
-[60 <./graphics/HW_Val/Test_Eingangsspannung.jpg> <./graphics/HW_Val/Ergebnis_E
+[61 <./graphics/HW_Val/Test_Eingangsspannung.jpg> <./graphics/HW_Val/Ergebnis_E
 ingangsspannung.jpg> <./graphics/HW_Val/Test_ChargePump.jpg> <./graphics/HW_Val
 /Ergebnis_ChargePump.jpg>]
-<graphics/HW_Val/MCU_flashen.jpg, id=1040, 2707.11375pt x 2297.58376pt>
+<graphics/HW_Val/MCU_flashen.jpg, id=1065, 2707.11375pt x 2297.58376pt>
 File: graphics/HW_Val/MCU_flashen.jpg Graphic file (type jpg)
 <use graphics/HW_Val/MCU_flashen.jpg>
 Package pdftex.def Info: graphics/HW_Val/MCU_flashen.jpg  used on input line 10
-3.
+4.
 (pdftex.def)             Requested size: 200.76352pt x 170.38313pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 104.
+(caption)                particular \caption on input line 105.
 See the caption package documentation for explanation.
 
-<graphics/HW_Val/MCU_LED.jpg, id=1041, 1475.5125pt x 1355.8153pt>
+<graphics/HW_Val/MCU_LED.jpg, id=1066, 1475.5125pt x 1355.8153pt>
 File: graphics/HW_Val/MCU_LED.jpg Graphic file (type jpg)
 <use graphics/HW_Val/MCU_LED.jpg>
-Package pdftex.def Info: graphics/HW_Val/MCU_LED.jpg  used on input line 109.
+Package pdftex.def Info: graphics/HW_Val/MCU_LED.jpg  used on input line 110.
 (pdftex.def)             Requested size: 200.76352pt x 184.47533pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 110.
+(caption)                particular \caption on input line 111.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 ...onof{figure}{Die leuchtende LED der MCU.}
-                                                   [61 <./graphics/HW_Val/Test_
+l.111 ...onof{figure}{Die leuchtende LED der MCU.}
+                                                   [62 <./graphics/HW_Val/Test_
 Ausgangsspannung.jpg> <./graphics/HW_Val/Ergebnis_Ausgangsspannung.jpg>]
-<graphics/HW_Val/Blinken_LED.jpg, id=1051, 2787.66469pt x 2091.31313pt>
+<graphics/HW_Val/Blinken_LED.jpg, id=1077, 2787.66469pt x 2091.31313pt>
 File: graphics/HW_Val/Blinken_LED.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Blinken_LED.jpg>
-Package pdftex.def Info: graphics/HW_Val/Blinken_LED.jpg  used on input line 11
-9.
+Package pdftex.def Info: graphics/HW_Val/Blinken_LED.jpg  used on input line 12
+0.
 (pdftex.def)             Requested size: 200.76352pt x 150.58719pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 120.
+(caption)                particular \caption on input line 121.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 ...igure}{Signalverlauf der blinkenden LED.}
+l.121 ...igure}{Signalverlauf der blinkenden LED.}
                                                   
-<graphics/HW_Val/Testpunkt_Quarz.jpg, id=1052, 1888.05376pt x 1708.13156pt>
+<graphics/HW_Val/Testpunkt_Quarz.jpg, id=1078, 1888.05376pt x 1708.13156pt>
 File: graphics/HW_Val/Testpunkt_Quarz.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Testpunkt_Quarz.jpg>
 Package pdftex.def Info: graphics/HW_Val/Testpunkt_Quarz.jpg  used on input lin
-e 126.
+e 127.
 (pdftex.def)             Requested size: 200.76352pt x 181.61363pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 127.
+(caption)                particular \caption on input line 128.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127 \captionof{figure}{Messung am Quarz.}
+l.128 \captionof{figure}{Messung am Quarz.}
                                            
-<graphics/HW_Val/Ergebnis_Quarz.jpg, id=1053, 2725.18124pt x 2103.35812pt>
+<graphics/HW_Val/Ergebnis_Quarz.jpg, id=1079, 2725.18124pt x 2103.35812pt>
 File: graphics/HW_Val/Ergebnis_Quarz.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Ergebnis_Quarz.jpg>
 Package pdftex.def Info: graphics/HW_Val/Ergebnis_Quarz.jpg  used on input line
- 132.
+ 133.
 (pdftex.def)             Requested size: 200.76352pt x 154.95282pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
+(caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 ...ende Signal des Quarzes auf dem TDS 210.}
-                                                   [62 <./graphics/HW_Val/MCU_f
+l.134 ...ende Signal des Quarzes auf dem TDS 210.}
+                                                   [63 <./graphics/HW_Val/MCU_f
 lashen.jpg> <./graphics/HW_Val/MCU_LED.jpg> <./graphics/HW_Val/Blinken_LED.jpg>
  <./graphics/HW_Val/Testpunkt_Quarz.jpg> <./graphics/HW_Val/Ergebnis_Quarz.jpg>
 ]
-<graphics/HW_Val/Testpunkt_serial.jpg, id=1062, 1464.97313pt x 1193.20781pt>
+<graphics/HW_Val/Testpunkt_serial.jpg, id=1087, 1464.97313pt x 1193.20781pt>
 File: graphics/HW_Val/Testpunkt_serial.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Testpunkt_serial.jpg>
 Package pdftex.def Info: graphics/HW_Val/Testpunkt_serial.jpg  used on input li
-ne 146.
+ne 147.
 (pdftex.def)             Requested size: 200.76352pt x 163.51582pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 147.
+(caption)                particular \caption on input line 148.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 ...an einem Via der TRX-Signalbahn der MCU.}
+l.148 ...an einem Via der TRX-Signalbahn der MCU.}
                                                   
-<graphics/HW_Val/Ergebnis_serial.jpg, id=1063, 2823.79968pt x 2155.30219pt>
+<graphics/HW_Val/Ergebnis_serial.jpg, id=1088, 2823.79968pt x 2155.30219pt>
 File: graphics/HW_Val/Ergebnis_serial.jpg Graphic file (type jpg)
 <use graphics/HW_Val/Ergebnis_serial.jpg>
 Package pdftex.def Info: graphics/HW_Val/Ergebnis_serial.jpg  used on input lin
-e 152.
+e 153.
 (pdftex.def)             Requested size: 200.76352pt x 153.22156pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 153.
+(caption)                particular \caption on input line 154.
 See the caption package documentation for explanation.
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 ...lauf der von der MCU gesendeten Zeichen.}
-                                                  
+l.154 ...lauf der von der MCU gesendeten Zeichen.}
+                                                   [64 <./graphics/HW_Val/Testp
+unkt_serial.jpg> <./graphics/HW_Val/Ergebnis_serial.jpg>]
 
-LaTeX Warning: Reference `fig:Flankenbeispiel' on page 63 undefined on input li
-ne 174.
+LaTeX Warning: Reference `fig:Flankenbeispiel' on page 65 undefined on input li
+ne 175.
 
-[63 <./graphics/HW_Val/Testpunkt_serial.jpg> <./graphics/HW_Val/Ergebnis_serial
-.jpg>]) [64]
+
+LaTeX Warning: Reference `fig:Leistung_Aufbau' on page 65 undefined on input li
+ne 194.
+
+
+LaTeX Warning: Reference `fig:Leistung_Aufbau' on page 65 undefined on input li
+ne 197.
+
+
+LaTeX Warning: Reference `fig:Leistung_Ergebnis' on page 65 undefined on input 
+line 198.
+
+
+LaTeX Warning: Reference `fig:Leistung_Ergebnis' on page 65 undefined on input 
+line 200.
+
+) [65]
 \openout2 = `sections/abschluss/Schluss.aux'.
 
- (sections/abschluss/Schluss.tex) [65
+ (sections/abschluss/Schluss.tex) [66
 
 
 ]
@@ -3387,34 +3427,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 []|\T1/lmr/m/n/14.4 Brugg/Windisch,
  []
 
-) [66
+) [67
 
 
 ]
-Underfull \hbox (badness 1097) in paragraph at lines 118--118
+Underfull \hbox (badness 1097) in paragraph at lines 117--117
 []\T1/lmr/m/n/10.95 Amazon. (kei-ne An-ga-be). Er-satz Sen-sor Wind-ge-schwin-d
 ig-keit f�r Frog-git WH1080
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 118--118
+Underfull \hbox (badness 2359) in paragraph at lines 117--117
 \T1/lmr/m/n/10.95 WH3080 WH1090, Adres-se: []$\T1/lmtt/m/n/10.95 https : / / ww
 w . amazon . de / Ersatz -[] Sensor -[]
  []
 
-[67
+[68
 
 ] (Fachbericht.lot)
 \tf@lot=\write7
 \openout7 = `Fachbericht.lot'.
 
- (Fachbericht.lof [68] [69])
+ (Fachbericht.lof [69] [70] [71])
 \tf@lof=\write8
 \openout8 = `Fachbericht.lof'.
 
- [70] [71] [72
+ [72] [73
 
-] [73]
+]
 \openout2 = `sections/appendix.aux'.
 
 
@@ -3422,7 +3462,7 @@ w . amazon . de / Ersatz -[] Sensor -[]
 
 pdfTeX warning: pdflatex (file ./appendix/Auftragsbeschreibung.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix/Auftragsbeschreibung.pdf, id=1284, 597.55246pt x 845.07724pt>
+<appendix/Auftragsbeschreibung.pdf, id=1309, 597.55246pt x 845.07724pt>
 File: appendix/Auftragsbeschreibung.pdf Graphic file (type pdf)
 <use appendix/Auftragsbeschreibung.pdf>
 Package pdftex.def Info: appendix/Auftragsbeschreibung.pdf  used on input line 
@@ -3445,7 +3485,7 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./appendix/Auftragsbeschreibung.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix/Auftragsbeschreibung.pdf, id=1287, page=1, 597.55246pt x 845.07724pt>
+<appendix/Auftragsbeschreibung.pdf, id=1312, page=1, 597.55246pt x 845.07724pt>
 
 File: appendix/Auftragsbeschreibung.pdf Graphic file (type pdf)
 <use appendix/Auftragsbeschreibung.pdf, page 1>
@@ -3478,7 +3518,7 @@ t line 3.
 
 pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<appendix/Aufgabenstellung.pdf, id=1319, 597.55246pt x 845.19763pt>
+<appendix/Aufgabenstellung.pdf, id=1344, 597.55246pt x 845.19763pt>
 File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
 <use appendix/Aufgabenstellung.pdf>
 Package pdftex.def Info: appendix/Aufgabenstellung.pdf  used on input line 7.
@@ -3499,7 +3539,7 @@ pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<appendix/Aufgabenstellung.pdf, id=1322, page=1, 597.55246pt x 845.19763pt>
+<appendix/Aufgabenstellung.pdf, id=1347, page=1, 597.55246pt x 845.19763pt>
 File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
 <use appendix/Aufgabenstellung.pdf, page 1>
 Package pdftex.def Info: appendix/Aufgabenstellung.pdf , page1 used on input li
@@ -3566,14 +3606,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 [76] [77]
-<graphics/Konzeptdiagramme/komplett.PNG, id=1359, 650.43pt x 578.91281pt>
+<graphics/Konzeptdiagramme/komplett.PNG, id=1384, 650.43pt x 578.91281pt>
 File: graphics/Konzeptdiagramme/komplett.PNG Graphic file (type png)
 <use graphics/Konzeptdiagramme/komplett.PNG>
 Package pdftex.def Info: graphics/Konzeptdiagramme/komplett.PNG  used on input 
 line 46.
 (pdftex.def)             Requested size: 455.24408pt x 405.20087pt.
  [78 <./graphics/Konzeptdiagramme/komplett.PNG>]
-<graphics/Anhang_Eagle/PowerSupply.png, id=1365, 801.7152pt x 534.3162pt>
+<graphics/Anhang_Eagle/PowerSupply.png, id=1390, 801.7152pt x 534.3162pt>
 File: graphics/Anhang_Eagle/PowerSupply.png Graphic file (type png)
 <use graphics/Anhang_Eagle/PowerSupply.png>
 Package pdftex.def Info: graphics/Anhang_Eagle/PowerSupply.png  used on input l
@@ -3582,34 +3622,34 @@ ine 56.
  [79
 
  <./graphics/Anhang_Eagle/PowerSupply.png (PNG copy)>]
-<graphics/Anhang_Eagle/MCU.png, id=1371, 801.7152pt x 534.3162pt>
+<graphics/Anhang_Eagle/MCU.png, id=1396, 801.7152pt x 534.3162pt>
 File: graphics/Anhang_Eagle/MCU.png Graphic file (type png)
 <use graphics/Anhang_Eagle/MCU.png>
 Package pdftex.def Info: graphics/Anhang_Eagle/MCU.png  used on input line 64.
 (pdftex.def)             Requested size: 479.99588pt x 319.90733pt.
  [80 <./graphics/Anhang_Eagle/MCU.png (PNG copy)>]
-<graphics/Anhang_Eagle/uSDCard.png, id=1378, 801.7152pt x 534.3162pt>
+<graphics/Anhang_Eagle/uSDCard.png, id=1403, 801.7152pt x 534.3162pt>
 File: graphics/Anhang_Eagle/uSDCard.png Graphic file (type png)
 <use graphics/Anhang_Eagle/uSDCard.png>
 Package pdftex.def Info: graphics/Anhang_Eagle/uSDCard.png  used on input line 
 72.
 (pdftex.def)             Requested size: 479.99588pt x 319.90733pt.
  [81 <./graphics/Anhang_Eagle/uSDCard.png (PNG copy)>]
-<graphics/Anhang_Eagle/IfAndSense.png, id=1384, 801.7152pt x 534.3162pt>
+<graphics/Anhang_Eagle/IfAndSense.png, id=1409, 801.7152pt x 534.3162pt>
 File: graphics/Anhang_Eagle/IfAndSense.png Graphic file (type png)
 <use graphics/Anhang_Eagle/IfAndSense.png>
 Package pdftex.def Info: graphics/Anhang_Eagle/IfAndSense.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 479.99588pt x 319.90733pt.
  [82 <./graphics/Anhang_Eagle/IfAndSense.png (PNG copy)>]
-<graphics/Anhang_Eagle/SIM808.png, id=1390, 801.7152pt x 534.3162pt>
+<graphics/Anhang_Eagle/SIM808.png, id=1415, 801.7152pt x 534.3162pt>
 File: graphics/Anhang_Eagle/SIM808.png Graphic file (type png)
 <use graphics/Anhang_Eagle/SIM808.png>
 Package pdftex.def Info: graphics/Anhang_Eagle/SIM808.png  used on input line 8
 8.
 (pdftex.def)             Requested size: 479.99588pt x 319.90733pt.
  [83 <./graphics/Anhang_Eagle/SIM808.png (PNG copy)>]
-<graphics/Anhang_Eagle/PCB.png, id=1396, 460.6008pt x 380.1402pt>
+<graphics/Anhang_Eagle/PCB.png, id=1421, 460.6008pt x 380.1402pt>
 File: graphics/Anhang_Eagle/PCB.png Graphic file (type png)
 <use graphics/Anhang_Eagle/PCB.png>
 Package pdftex.def Info: graphics/Anhang_Eagle/PCB.png  used on input line 99.
@@ -3617,32 +3657,28 @@ Package pdftex.def Info: graphics/Anhang_Eagle/PCB.png  used on input line 99.
 ) [84
 
  <./graphics/Anhang_Eagle/PCB.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
 
 (Fachbericht.aux (sections/abstract.aux) (sections/einleitung/einleitung.aux)
 (sections/einleitung/auftragsbeschreibung.aux) (sections/einleitung/ziele.aux)
 (sections/einleitung/Konzept/konzept.aux)
 (sections/firmware/development_environment.aux) (sections/firmware/uml.aux)
-(sections/firmware/validierung_firmware.aux) (sections/firmware/manual.aux)
-(sections/hardware/Uebersicht.aux) (sections/hardware/MCU.aux)
-(sections/hardware/RTC.aux) (sections/hardware/Sensoren.aux)
-(sections/hardware/Datenspeicherung.aux)
+(sections/firmware/manual.aux) (sections/hardware/Uebersicht.aux)
+(sections/hardware/MCU.aux) (sections/hardware/RTC.aux)
+(sections/hardware/Sensoren.aux) (sections/hardware/Datenspeicherung.aux)
 (sections/hardware/Kommunikationsmodule.aux)
 (sections/hardware/Energieversorgung.aux) (sections/hardware/PCB.aux)
 (sections/hardware/Gehaeuse.aux) (sections/abschluss/Konzeptvalidierung.aux)
 (sections/abschluss/Schluss.aux) (sections/Authentizitaetserklaerung.aux)
 (sections/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `Fachbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 02810AAC38C953F1FAB7B8726BE4C99B;4992.
+(rerunfilecheck)             Checksum: 247F93B850537B63153ED8A3383FB1D7;5277.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -3652,20 +3688,20 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'Fachbericht.run.xml'.
 \openout1 = `Fachbericht.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 71 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 51230 strings out of 492946
- 1083470 string characters out of 3126266
- 1664691 words of memory out of 3000000
- 53803 multiletter control sequences out of 15000+200000
+ 51244 strings out of 492946
+ 1083536 string characters out of 3126266
+ 1661994 words of memory out of 3000000
+ 53818 multiletter control sequences out of 15000+200000
  647735 words of font info for 89 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 64i,19n,84p,2159b,3447s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,19n,84p,2159b,3449s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -3701,9 +3737,9 @@ grams/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/mknup/AppData/Local
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mknup/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mknup/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Fachbericht.pdf (89 pages, 63751165 bytes).
+Output written on Fachbericht.pdf (89 pages, 66255795 bytes).
 PDF statistics:
- 1529 PDF objects out of 1728 (max. 8388607)
- 292 named destinations out of 1000 (max. 500000)
- 1063 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1555 PDF objects out of 1728 (max. 8388607)
+ 296 named destinations out of 1000 (max. 500000)
+ 1097 words of extra memory for PDF output out of 10000 (max. 10000000)
 

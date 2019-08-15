@@ -12,67 +12,69 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces SPI Header \cite {avrdragonug}\relax }}{13}{figure.2}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Anschluss \cite {avrdragonug}\relax }}{13}{figure.3}% 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces UML-Diagramm\relax }}{14}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Das noch unbest\IeC {\"u}ckte PCB.\relax }}{20}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Das unbest\IeC {\"u}ckte PCB mit den markierten Bereichen der MCU, der Datenspeicherung, der RTC und der Sensoren.\relax }}{21}{figure.caption.16}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Das unbest\IeC {\"u}ckte PCB mit den markierten Bereichen des $\mu $USB-Interfaces, des SIM808 und der Bohrl\IeC {\"o}cher f\IeC {\"u}r die Montage im Geh\IeC {\"a}use.\relax }}{22}{figure.caption.17}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Das unbest\IeC {\"u}ckte PCB mit den markierten Bereichen f\IeC {\"u}r die Energieversorgung.\relax }}{23}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Arduino Mega Board \cite [S.1]{arduinoMega}\relax }}{24}{figure.5}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Der Mikroprozessor ATMega2560, ohne Board.\relax }}{25}{figure.6}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces DS3231 mit seinen Anschl\IeC {\"u}ssen \cite {DS3231DS}.\relax }}{26}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Darstellung des Kippl\IeC {\"o}ffelprinzips\relax }}{28}{figure.caption.24}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Selbsterstellter Kippl\IeC {\"o}ffel.\relax }}{29}{figure.caption.26}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Selbsterstelltes Ger\IeC {\"u}st.\relax }}{30}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Schaltkreis zur detektion der Kippbewegung.\relax }}{31}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Das Ombrometer\relax }}{32}{figure.caption.29}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Anemometer \cite {AmazonAnemometer}\relax }}{33}{figure.13}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces RJ-11 Stecker\relax }}{33}{figure.14}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Beschaltung des Ausgangs des Anemometers.\relax }}{33}{figure.15}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Ausgangssignal $V_{out}$\relax }}{33}{figure.16}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Interne Schaltung \cite {ADSkeineAngabe}\relax }}{34}{figure.17}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Spannungsteiler mit $R=10k\Omega $ \cite {ADSkeineAngabe}\relax }}{35}{figure.18}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Windrichtungsgeber von MISOL \cite {windrichtungsgeber}\relax }}{35}{figure.19}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces BME280 \cite {Bosch2019}\relax }}{35}{figure.20}% 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces TSL2561 Breakout Board von Adafruit \cite {TSL2561Adafruit}\relax }}{37}{figure.caption.38}% 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces BME280 Breakout Board von Adafruit \cite {BME_Breakout}\relax }}{38}{figure.caption.40}% 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces 16 GB $\mu $SD-Karte \cite {musdkarte}\relax }}{39}{figure.23}% 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces SIM808 von Vorne \cite {SIM808}\relax }}{41}{figure.24}% 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces 6V 6W Solarpanel von Adafruit \cite {Solarpanel}\relax }}{44}{figure.caption.45}% 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Schematische Darstellung der ChargePump.\relax }}{45}{figure.caption.46}% 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Das L\IeC {\"o}ten eines THT-Bauteils.\relax }}{47}{figure.27}% 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Das L\IeC {\"o}ten eines SMD-Bauteils.\relax }}{48}{figure.28}% 
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Das noch unbest\IeC {\"u}ckte PCB mit den wichtigsten Dimensionen.\relax }}{50}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Gesamtansicht des Designs des Bodens.\relax }}{52}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Design des Schraubenblocks des Bodens.\relax }}{52}{figure.31}% 
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen.\relax }}{53}{figure.caption.51}% 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Seitenwand f\IeC {\"u}r den BME280-Extraraum mit Luftschlitzen.\relax }}{53}{figure.caption.52}% 
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Gesamtansicht des Designs des Deckels.\relax }}{54}{figure.caption.53}% 
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Schraubenversenkung im Deckel.\relax }}{54}{figure.35}% 
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen und der designte Extraraum f\IeC {\"u}r den BME280 mit Luftschlitzen.\relax }}{55}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.37}{\ignorespaces \IeC {\"O}ffnung und Bohrungen f\IeC {\"u}r den TSL2561 und den BME280.\relax }}{55}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Design des Randes vom Boden zum Deckel hin.\relax }}{56}{figure.38}% 
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Design des Randes vom Deckel zum Boden hin.\relax }}{56}{figure.39}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Das noch unbest\IeC {\"u}ckte PCB.\relax }}{18}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Das unbest\IeC {\"u}ckte PCB mit den markierten Bereichen der MCU, der Datenspeicherung, der RTC und der Sensoren.\relax }}{19}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Das unbest\IeC {\"u}ckte PCB mit den markierten Bereichen des $\mu $USB-Interfaces, des SIM808 und der Bohrl\IeC {\"o}cher f\IeC {\"u}r die Montage im Geh\IeC {\"a}use.\relax }}{20}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Das unbest\IeC {\"u}ckte PCB mit den markierten Bereichen f\IeC {\"u}r die Energieversorgung.\relax }}{21}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Arduino Mega Board \cite [S.1]{arduinoMega}\relax }}{22}{figure.5}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Der Mikroprozessor ATMega2560, ohne Board.\relax }}{23}{figure.6}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces DS3231 mit seinen Anschl\IeC {\"u}ssen \cite {DS3231DS}.\relax }}{24}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Darstellung des Kippl\IeC {\"o}ffelprinzips\relax }}{26}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Selbsterstellter Kippl\IeC {\"o}ffel.\relax }}{27}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Selbsterstelltes Ger\IeC {\"u}st.\relax }}{28}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Schaltkreis zur detektion der Kippbewegung.\relax }}{29}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Das Ombrometer\relax }}{30}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Anemometer \cite {AmazonAnemometer}\relax }}{31}{figure.13}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces RJ-11 Stecker\relax }}{31}{figure.14}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Beschaltung des Ausgangs des Anemometers.\relax }}{31}{figure.15}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Ausgangssignal $V_{out}$\relax }}{31}{figure.16}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Interne Schaltung \cite {ADSkeineAngabe}\relax }}{32}{figure.17}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Spannungsteiler mit $R=10k\Omega $ \cite {ADSkeineAngabe}\relax }}{33}{figure.18}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Windrichtungsgeber von MISOL \cite {windrichtungsgeber}\relax }}{33}{figure.19}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces BME280 \cite {Bosch2019}\relax }}{33}{figure.20}% 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces TSL2561 Breakout Board von Adafruit \cite {TSL2561Adafruit}\relax }}{35}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces BME280 Breakout Board von Adafruit \cite {BME_Breakout}\relax }}{36}{figure.caption.40}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces 16 GB $\mu $SD-Karte \cite {musdkarte}\relax }}{37}{figure.23}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces SIM808 von Vorne \cite {SIM808}\relax }}{39}{figure.24}% 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces 6V 6W Solarpanel von Adafruit \cite {Solarpanel}\relax }}{42}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Schematische Darstellung der ChargePump.\relax }}{43}{figure.caption.46}% 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Das L\IeC {\"o}ten eines THT-Bauteils.\relax }}{45}{figure.27}% 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Das L\IeC {\"o}ten eines SMD-Bauteils.\relax }}{46}{figure.28}% 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Verteilen des Flussmittels an die Pins der MCU.\relax }}{46}{figure.29}% 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces L\IeC {\"o}ten der MCU via Ziehl\IeC {\"o}tverfahren.\relax }}{46}{figure.30}% 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Das noch unbest\IeC {\"u}ckte PCB mit den wichtigsten Dimensionen.\relax }}{49}{figure.caption.47}% 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Gesamtansicht des Designs des Bodens.\relax }}{51}{figure.caption.48}% 
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Design des Schraubenblocks des Bodens.\relax }}{51}{figure.33}% 
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen.\relax }}{52}{figure.caption.49}% 
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Seitenwand f\IeC {\"u}r den BME280-Extraraum mit Luftschlitzen.\relax }}{52}{figure.caption.50}% 
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Gesamtansicht des Designs des Deckels.\relax }}{53}{figure.caption.51}% 
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Schraubenversenkung im Deckel.\relax }}{53}{figure.37}% 
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Aussparungen f\IeC {\"u}r Bauteile, welche aus dem Geh\IeC {\"a}use hinausragen und der designte Extraraum f\IeC {\"u}r den BME280 mit Luftschlitzen.\relax }}{54}{figure.caption.52}% 
+\contentsline {figure}{\numberline {3.39}{\ignorespaces \IeC {\"O}ffnung und Bohrungen f\IeC {\"u}r den TSL2561 und den BME280.\relax }}{54}{figure.caption.53}% 
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Design des Randes vom Boden zum Deckel hin.\relax }}{55}{figure.40}% 
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Design des Randes vom Deckel zum Boden hin.\relax }}{55}{figure.41}% 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Das handliche RMS Multimeter FLUKE 117 mit Sonden.\relax }}{58}{figure.1}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces TDS 210 von Tektronix.\relax }}{58}{figure.2}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Das verwendete Speiseger\IeC {\"a}t.\relax }}{58}{figure.3}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Das Zeichen f\IeC {\"u}r die Kontinuit\IeC {\"a}tsfunktion des FLUKEs.\relax }}{59}{figure.4}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Die Rot markierten Stellen zeigen die Endpunkte des Verbindungstests an. Die Orange markierte Stelle zeigt den Startpunkt an.\relax }}{59}{figure.caption.56}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Testpunkt zur \IeC {\"U}berpr\IeC {\"u}fung der Eingangsspannung.\relax }}{60}{figure.6}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Die Eingangsspannung auf dem TDS 210 visualisiert. Es werden 4V angezeigt.\relax }}{60}{figure.7}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Testpunkt um die Spannungserh\IeC {\"o}hung der ChargePump zu messen.\relax }}{60}{figure.8}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Die durch die ChargePump erh\IeC {\"o}hte Spannung, welche auf dem TDS 210 visualisiert wurde. Es werden etwas mehr als 6V angezeigt.\relax }}{60}{figure.9}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Testpunkt f\IeC {\"u}r die Ausgangsspannung des Linearreglers.\relax }}{61}{figure.10}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Die durch den Linearregler geregelte Ausgangsspannung. Es werden rund 3.3V angezeigt.\relax }}{61}{figure.11}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Verbindung zwischen AVR-Dragon und MCU.\relax }}{62}{figure.12}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Die leuchtende LED der MCU.\relax }}{62}{figure.13}% 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Signalverlauf der blinkenden LED.\relax }}{62}{figure.14}% 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Messung am Quarz.\relax }}{62}{figure.15}% 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Das oszillierende Signal des Quarzes auf dem TDS 210.\relax }}{62}{figure.16}% 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Messung an einem Via der TRX-Signalbahn der MCU.\relax }}{63}{figure.17}% 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Signalverlauf der von der MCU gesendeten Zeichen.\relax }}{63}{figure.18}% 
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Komplette Darstellung des Konzepts\relax }}{78}{figure.caption.65}% 
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Schema der Energieversorgung.\relax }}{79}{figure.caption.66}% 
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Schema der MCU-Bauteilgruppe.\relax }}{80}{figure.caption.67}% 
-\contentsline {figure}{\numberline {E.3}{\ignorespaces Schema der $\mu $SD-Bauteilgruppe.\relax }}{81}{figure.caption.68}% 
-\contentsline {figure}{\numberline {E.4}{\ignorespaces Schema des $\mu $USB-Anschlusses und der Sensorik.\relax }}{82}{figure.caption.69}% 
-\contentsline {figure}{\numberline {E.5}{\ignorespaces Schema des SIM808.\relax }}{83}{figure.caption.70}% 
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Das PCB-Layout der Wetterstation.\relax }}{84}{figure.caption.71}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Das Zeichen f\IeC {\"u}r die Kontinuit\IeC {\"a}tsfunktion des FLUKEs.\relax }}{60}{figure.4}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Die Rot markierten Stellen zeigen die Endpunkte des Verbindungstests an. Die Orange markierte Stelle zeigt den Startpunkt an.\relax }}{60}{figure.caption.54}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Testpunkt zur \IeC {\"U}berpr\IeC {\"u}fung der Eingangsspannung.\relax }}{61}{figure.6}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Die Eingangsspannung auf dem TDS 210 visualisiert. Es werden 4V angezeigt.\relax }}{61}{figure.7}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Testpunkt um die Spannungserh\IeC {\"o}hung der ChargePump zu messen.\relax }}{61}{figure.8}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Die durch die ChargePump erh\IeC {\"o}hte Spannung, welche auf dem TDS 210 visualisiert wurde. Es werden etwas mehr als 6V angezeigt.\relax }}{61}{figure.9}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Testpunkt f\IeC {\"u}r die Ausgangsspannung des Linearreglers.\relax }}{62}{figure.10}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Die durch den Linearregler geregelte Ausgangsspannung. Es werden rund 3.3V angezeigt.\relax }}{62}{figure.11}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Verbindung zwischen AVR-Dragon und MCU.\relax }}{63}{figure.12}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Die leuchtende LED der MCU.\relax }}{63}{figure.13}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Signalverlauf der blinkenden LED.\relax }}{63}{figure.14}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Messung am Quarz.\relax }}{63}{figure.15}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Das oszillierende Signal des Quarzes auf dem TDS 210.\relax }}{63}{figure.16}% 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Messung an einem Via der TRX-Signalbahn der MCU.\relax }}{64}{figure.17}% 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Signalverlauf der von der MCU gesendeten Zeichen.\relax }}{64}{figure.18}% 
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Komplette Darstellung des Konzepts\relax }}{78}{figure.caption.64}% 
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Schema der Energieversorgung.\relax }}{79}{figure.caption.65}% 
+\contentsline {figure}{\numberline {E.2}{\ignorespaces Schema der MCU-Bauteilgruppe.\relax }}{80}{figure.caption.66}% 
+\contentsline {figure}{\numberline {E.3}{\ignorespaces Schema der $\mu $SD-Bauteilgruppe.\relax }}{81}{figure.caption.67}% 
+\contentsline {figure}{\numberline {E.4}{\ignorespaces Schema des $\mu $USB-Anschlusses und der Sensorik.\relax }}{82}{figure.caption.68}% 
+\contentsline {figure}{\numberline {E.5}{\ignorespaces Schema des SIM808.\relax }}{83}{figure.caption.69}% 
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Das PCB-Layout der Wetterstation.\relax }}{84}{figure.caption.70}% 

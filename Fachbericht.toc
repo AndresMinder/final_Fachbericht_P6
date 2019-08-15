@@ -46,30 +46,29 @@
 \contentsline {subsection}{\numberline {3.7}Kommunikationsmodule}{41}{subsection.3.7}% 
 \contentsline {subsubsection}{\numberline {3.7.1}SIM808}{41}{subsubsection.3.7.1}% 
 \contentsline {subsection}{\numberline {3.8}Energieversorgung}{43}{subsection.3.8}% 
-\contentsline {subsubsection}{\numberline {3.8.1}Energiekonzept}{43}{subsubsection.3.8.1}% 
-\contentsline {subsubsection}{\numberline {3.8.2}Berechnung der Akkukapazit\IeC {\"a}t}{44}{subsubsection.3.8.2}% 
-\contentsline {subsubsection}{\numberline {3.8.3}Einfluss der Photovoltaik}{45}{subsubsection.3.8.3}% 
-\contentsline {subsubsection}{\numberline {3.8.4}ChargePump und Linearregler}{46}{subsubsection.3.8.4}% 
-\contentsline {subsection}{\numberline {3.9}PCB}{48}{subsection.3.9}% 
-\contentsline {subsubsection}{\numberline {3.9.1}Das Best\IeC {\"u}cken der Leiterplatte}{48}{subsubsection.3.9.1}% 
-\contentsline {subsubsection}{\numberline {3.9.2}M\IeC {\"a}ngel der Erstversion und dessen Verbesserungen}{49}{subsubsection.3.9.2}% 
-\contentsline {subsection}{\numberline {3.10}Das Geh\IeC {\"a}use}{51}{subsection.3.10}% 
-\contentsline {subsubsection}{\numberline {3.10.1}Wichtige Merkmale}{51}{subsubsection.3.10.1}% 
-\contentsline {subsubsection}{\numberline {3.10.2}Das Design}{52}{subsubsection.3.10.2}% 
-\contentsline {section}{\numberline {4}Abschluss}{59}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Konzeptvalidierung}{60}{subsection.4.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1}Validierung der Hardware}{60}{subsubsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.2}Schluss}{62}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{63}{subsection.4.3}% 
-\contentsline {section}{Literatur}{64}{section*.73}% 
-\contentsline {section}{Tabellenverzeichnis}{65}{section*.74}% 
-\contentsline {section}{Abbildungsverzeichnis}{65}{section*.75}% 
-\contentsline {section}{Anhang}{69}{section*.76}% 
-\contentsline {section}{\numberline {A}Lastenheft}{70}{appendix.A}% 
-\contentsline {section}{\numberline {B}Aufgabenstellung}{71}{appendix.B}% 
-\contentsline {section}{\numberline {C}Lizenz-Texte}{72}{appendix.C}% 
-\contentsline {subsection}{\numberline {C.1}Adafruit\_BME280}{72}{subsection.C.1}% 
-\contentsline {subsection}{\numberline {C.2}RTClib}{72}{subsection.C.2}% 
-\contentsline {section}{\numberline {D}Konzept Posterbild}{74}{appendix.D}% 
-\contentsline {section}{\numberline {E}Schema}{75}{appendix.E}% 
-\contentsline {section}{\numberline {F}PCB-Layout}{80}{appendix.F}% 
+\contentsline {subsubsection}{\numberline {3.8.1}Berechnung der Akkukapazit\IeC {\"a}t}{43}{subsubsection.3.8.1}% 
+\contentsline {subsubsection}{\numberline {3.8.2}Einfluss der Photovoltaik}{44}{subsubsection.3.8.2}% 
+\contentsline {subsubsection}{\numberline {3.8.3}ChargePump und Linearregler}{45}{subsubsection.3.8.3}% 
+\contentsline {subsection}{\numberline {3.9}PCB}{47}{subsection.3.9}% 
+\contentsline {subsubsection}{\numberline {3.9.1}Das Best\IeC {\"u}cken der Leiterplatte}{47}{subsubsection.3.9.1}% 
+\contentsline {subsubsection}{\numberline {3.9.2}M\IeC {\"a}ngel der Erstversion und dessen Verbesserungen}{48}{subsubsection.3.9.2}% 
+\contentsline {subsection}{\numberline {3.10}Das Geh\IeC {\"a}use}{50}{subsection.3.10}% 
+\contentsline {subsubsection}{\numberline {3.10.1}Wichtige Merkmale}{50}{subsubsection.3.10.1}% 
+\contentsline {subsubsection}{\numberline {3.10.2}Das Design}{51}{subsubsection.3.10.2}% 
+\contentsline {section}{\numberline {4}Abschluss}{57}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Konzeptvalidierung}{58}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Validierung der Hardware}{58}{subsubsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.2}Schluss}{65}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{66}{subsection.4.3}% 
+\contentsline {section}{Literatur}{67}{section*.61}% 
+\contentsline {section}{Tabellenverzeichnis}{68}{section*.62}% 
+\contentsline {section}{Abbildungsverzeichnis}{68}{section*.63}% 
+\contentsline {section}{Anhang}{73}{section*.64}% 
+\contentsline {section}{\numberline {A}Lastenheft}{74}{appendix.A}% 
+\contentsline {section}{\numberline {B}Aufgabenstellung}{75}{appendix.B}% 
+\contentsline {section}{\numberline {C}Lizenz-Texte}{76}{appendix.C}% 
+\contentsline {subsection}{\numberline {C.1}Adafruit\_BME280}{76}{subsection.C.1}% 
+\contentsline {subsection}{\numberline {C.2}RTClib}{76}{subsection.C.2}% 
+\contentsline {section}{\numberline {D}Konzept Posterbild}{78}{appendix.D}% 
+\contentsline {section}{\numberline {E}Schema}{79}{appendix.E}% 
+\contentsline {section}{\numberline {F}PCB-Layout}{84}{appendix.F}% 

@@ -2067,8 +2067,9 @@
     <bcf:citekey order="69">Solarpanel</bcf:citekey>
     <bcf:citekey order="70">Solarpanel</bcf:citekey>
     <bcf:citekey order="71">Solarpanel</bcf:citekey>
-    <bcf:citekey order="96">license_bme280</bcf:citekey>
-    <bcf:citekey order="97">license_rtclib</bcf:citekey>
+    <bcf:citekey order="72">FLUKE</bcf:citekey>
+    <bcf:citekey order="97">license_bme280</bcf:citekey>
+    <bcf:citekey order="98">license_rtclib</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

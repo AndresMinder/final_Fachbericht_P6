@@ -1,17 +1,17 @@
 \subsection{Energieversorgung}
 \label{subsec:Energieversorgung}
-Die verschiedenen Bauteile auf dem PCB müssen mit Energie versorgt werden. Gemäss Auftragsbeschreibung soll die Wetterstation desweiteren über Photovoltaik gespiesen werden. Da die Sonne nur tagsüber scheint und um eine konstante Versorgung gewährleisten zu können, wird ein Akku benötigt. Um die Speisung via Akku und gleichzeitig ein Speisen des Akkus über die Photovoltaikanlage zu gewährleisten, muss der Ladestrom geregelt werden, was mit einem Power-Management-IC, dem MCP73871, erfolgt. Der MCP73871 führt die Speisung des Akkus weiter auf einen Linearregler (LM1117), welcher das 3.3V-Netz generiert. Damit der LM1117 eine saubere Ausgangsspannung (3.3V mit möglichst kleinem Rippel) generieren kann, muss dieser einen erhöhten Spannungspegel am Eingang haben, weshalb eine ChargePump (Ladungspumpe) benötigt wird. Das Konzept der Energieversorgung wird in Kapitel \ref{sec:Energiekonzept} vorgestellt.
-\subsubsection{Energiekonzept}
-\label{subsubsec:Energiekonzept}
-In diesem Kapitel wird das Energiekonzept erläutert. Dies soll eine Übersicht über die Energieversorgung geben.\\
-\begin{figure}[hbtp]
-\centering
-\includegraphics[width=0.8\textwidth]{graphics/Energieversorgung/Konzept.JPG}
-\captionof{figure}{Konzept der Energieversorgung}
-\label{fig:Energiekonzept}
-\end{figure}\\
-\newpage
-Abbildung \ref{fig:Energiekonzept} zeigt das Konzept der Energieversorgung. Darin sind Grün markiert die Energielieferanten, Blau die Schaltung um das 3.3V-Netz zu generieren und Rot die Verbraucher. Das Solarpanel speist über das Power-Management (MCP73871) den Akku. Der Akku ist die Quelle für die gesamte Wetterstation und speist diese ebenso über den MCP73871. Die Spannung des Akkus wird über den MCP73871 auf die ChargePump gegeben und dort erhöht, so dass der nachfolgende Linearregler (LM1117) mit dieser erhöhten Spannung einen möglichst konstanten (rippelfreien) 3.3V-Ausgang generiert. Mit diesem Ausgang des LM1117 wird das 3.3V-Netz generiert, woraus die benutzten Bauteile (die Systemlast) ihre benötigte Spannung erhalten. Einzige Ausnahme bildet hier der SIM808, da dieser eine höhere Spannung benötigt. Da der SIM808 eine erhöhte Betriebsspannung hat und Stromspitzen für das Senden und Empfangen von SMS aufweist, wird dieser direkt über den Akku betrieben. Falls die Wetterstation nicht benötigt werden sollte, können die Verbraucher über ein Schalter abgeschaltet werden. Es ist zu beachten, dass das Benutzen des Schalters die Energieversorgung sofort komplett trennt und auf dem PCB diverse Kondensatoren vorhanden sind, welche sich noch entladen. Ausserdem wird der MCP73871 nicht ausgeschaltet, weshalb ein weiteres laden des Akkus über die Photovoltaik möglich ist.
+Die verschiedenen Bauteile auf dem PCB müssen mit Energie versorgt werden. Gemäss Auftragsbeschreibung soll die Wetterstation desweiteren über Photovoltaik gespiesen werden. Da die Sonne nur tagsüber scheint und um eine konstante Versorgung gewährleisten zu können, wird ein Akku benötigt. Um die Speisung via Akku und gleichzeitig ein Speisen des Akkus über die Photovoltaikanlage zu gewährleisten, muss der Ladestrom geregelt werden, was mit einem Power-Management-IC, dem MCP73871, erfolgt. Der MCP73871 führt die Speisung des Akkus weiter auf einen Linearregler (LM1117), welcher das 3.3V-Netz generiert. Damit der LM1117 eine saubere Ausgangsspannung (3.3V mit möglichst kleinem Rippel) generieren kann, muss dieser einen erhöhten Spannungspegel am Eingang haben, weshalb eine ChargePump (Ladungspumpe) benötigt wird. Das Konzept der Energieversorgung wird in Kapitel \ref{sec:Konzept} vorgestellt, weshalb nun die Berechnung der Akkukapazität, der Einfluss der Photovoltaik, sowie die Kombination von ChargePump und Linearregler näher erläutert werden.
+%\subsubsection{Energiekonzept}
+%\label{subsubsec:Energiekonzept}
+%In diesem Kapitel wird das Energiekonzept erläutert. Dies soll eine Übersicht über die Energieversorgung geben.\\
+%\begin{figure}[hbtp]
+%\centering
+%\includegraphics[width=0.8\textwidth]{graphics/Energieversorgung/Konzept.JPG}
+%\captionof{figure}{Konzept der Energieversorgung}
+%\label{fig:Energiekonzept}
+%\end{figure}\\
+%\newpage
+%Abbildung \ref{fig:Energiekonzept} zeigt das Konzept der Energieversorgung. Darin sind Grün markiert die Energielieferanten, Blau die Schaltung um das 3.3V-Netz zu generieren und Rot die Verbraucher. Das Solarpanel speist über das Power-Management (MCP73871) den Akku. Der Akku ist die Quelle für die gesamte Wetterstation und speist diese ebenso über den MCP73871. Die Spannung des Akkus wird über den MCP73871 auf die ChargePump gegeben und dort erhöht, so dass der nachfolgende Linearregler (LM1117) mit dieser erhöhten Spannung einen möglichst konstanten (rippelfreien) 3.3V-Ausgang generiert. Mit diesem Ausgang des LM1117 wird das 3.3V-Netz generiert, woraus die benutzten Bauteile (die Systemlast) ihre benötigte Spannung erhalten. Einzige Ausnahme bildet hier der SIM808, da dieser eine höhere Spannung benötigt. Da der SIM808 eine erhöhte Betriebsspannung hat und Stromspitzen für das Senden und Empfangen von SMS aufweist, wird dieser direkt über den Akku betrieben. Falls die Wetterstation nicht benötigt werden sollte, können die Verbraucher über ein Schalter abgeschaltet werden. Es ist zu beachten, dass das Benutzen des Schalters die Energieversorgung sofort komplett trennt und auf dem PCB diverse Kondensatoren vorhanden sind, welche sich noch entladen. Ausserdem wird der MCP73871 nicht ausgeschaltet, weshalb ein weiteres laden des Akkus über die Photovoltaik möglich ist.
 \subsubsection{Berechnung der Akkukapazität}
 Um die Kapazität des Akkus zu berechnen, muss eine Schätzung des Energieverbrauchs gemacht werden. In Tabelle \ref{tab:Energieverbrauch} werden deshalb die verwendeten Bauteile mit ihrem Stromverbrauch aufgelistet.
 \begin{table}[h]

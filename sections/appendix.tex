@@ -47,7 +47,60 @@ THE SOFTWARE IS PROVIDED \glqq AS IS\grqq, WITHOUT WARRANTY OF ANY KIND, EXPRESS
 \caption{Komplette Darstellung des Konzepts}
 \label{fig:konzept_posterbild}
 \end{figure}
-
+\newpage
+\begin{landscape}
+\section{Schema}
+\label{Anhang:Schema}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.66\linewidth]{graphics/Anhang_Eagle/PowerSupply.png}
+\caption{Schema der Energieversorgung.}
+\label{fig:Anhang_PowerSupply}
+\end{figure}
+Abbildung \ref{fig:Anhang_PowerSupply} zeigt das Schema der Energieversorgungs-Bauteilgruppe.
+\newpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{graphics/Anhang_Eagle/MCU.png}
+\caption{Schema der MCU-Bauteilgruppe.}
+\label{fig:Anhang_MCU}
+\end{figure}
+Abbildung \ref{fig:Anhang_MCU} zeigt das Schema der MCU-Bauteilgruppe.
+\newpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{graphics/Anhang_Eagle/uSDCard.png}
+\caption{Schema der $\mu$SD-Bauteilgruppe.}
+\label{fig:Anhang_uSDCard}
+\end{figure}
+Abbildung \ref{fig:Anhang_uSDCard} zeigt das Schema der Datenspeicherungs-Bauteilgruppe.
+\newpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{graphics/Anhang_Eagle/IfAndSense.png}
+\caption{Schema des $\mu$USB-Anschlusses und der Sensorik.}
+\label{fig:Anhang_IfAndSense}
+\end{figure}
+Abbildung \ref{fig:Anhang_IfAndSense} zeigt das Schema der seriellen Schnittstelle und der Sensorik.
+\newpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{graphics/Anhang_Eagle/SIM808.png}
+\caption{Schema des SIM808.}
+\label{fig:Anhang_SIM808}
+\end{figure}
+\ref{fig:Anhang_SIM808} zeigt das Schema der SIM808-Bauteilgruppe.
+\end{landscape}
+\newpage
+\section{PCB-Layout}
+\label{Anhang:PCB}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.99\linewidth]{graphics/Anhang_Eagle/PCB.png}
+\caption{Das PCB-Layout der Wetterstation.}
+\label{fig:Anhang_PCBLayout}
+\end{figure}
+Abbildung \ref{fig:Anhang_PCBLayout} zeigt das PCB-Layout der Wetterstation. Es sind deutlich die verwendeten Bauteile zu erkennen, die Bohrlöcher, Vias und verschiedenfarbige Linien. Rote Linien sind auf dem obersten Layer (Layer 1), welcher hauptsächlich für Signale verwendet wird. Der zweitoberste Layer (Layer 2) ist mit einer Groundfläche (0V) ausgefüllt und wird über Vias angesteuert. Der zweitunterste Layer (Layer 3) dient dem 3.3V-Netz um die Bauteilgruppen zu Speisen (Orange). Der unterste Layer (Layer 4) ist ebenfalls für Signale reserviert (Blau), um anderen Leiterbahnen besser Ausweichen zu können. Etwaige Wechsel zwischen Layer 1 und Layer 4 werden mit durchgehenden Vias gemacht. Wechsel zwischen Layer 1 und Layer 2 bzw. Layer 3 werden mit blind Vias gemacht. Die verschiedenen Layer wurden alle mit Groundflächen ausgefüllt, damit die Herstellung des PCBs dem Hersteller vereinfacht wird (weniger ätzen).
 
 \end{appendix}
 

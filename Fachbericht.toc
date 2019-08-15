@@ -3,71 +3,73 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Einleitung}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Auftragsbeschreibung}{3}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Ziele}{4}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}Projekt 5}{4}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}Projekt 6}{5}{subsubsection.1.3.2}
-\contentsline {subsection}{\numberline {1.4}Konzept}{6}{subsection.1.4}
-\contentsline {subsubsection}{\numberline {1.4.1}Sensoren}{7}{subsubsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.2}RTC}{7}{subsubsection.1.4.2}
-\contentsline {subsubsection}{\numberline {1.4.3}Datenspeicherung}{8}{subsubsection.1.4.3}
-\contentsline {subsubsection}{\numberline {1.4.4}Kommunikationsmodul}{8}{subsubsection.1.4.4}
-\contentsline {subsubsection}{\numberline {1.4.5}Energieversorgung}{9}{subsubsection.1.4.5}
-\contentsline {section}{\numberline {2}Firmware}{11}{section.2}
-\contentsline {subsection}{\numberline {2.1}Development Environment}{12}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}In-System-Programmer}{12}{subsubsection.2.1.1}
-\contentsline {subparagraph}{Zu Beachten:}{13}{section*.12}
-\contentsline {subsection}{\numberline {2.2}UML-Diagramm}{14}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Lizenzen}{15}{subsubsection.2.2.1}
-\contentsline {subsection}{\numberline {2.3}Validierung der Firmware}{16}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Manual}{17}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}USB-to-Computer}{17}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}SMS-Abfrage}{17}{subsubsection.2.4.2}
-\contentsline {section}{\numberline {3}Hardware}{19}{section.3}
-\contentsline {subsection}{\numberline {3.1}\IeC {\"U}bersicht}{20}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}MCU}{24}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}MCU - Projekt 5}{24}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{25}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}RTC}{26}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}RTC - Projekt 5}{26}{subsubsection.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Sensoren}{28}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Ombrometer - Projekt 5}{28}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Anemometer - Projekt 5}{33}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Windrichtungsgeber - Projekt 5}{34}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}BME280 - Projekt 5}{35}{subsubsection.3.4.4}
-\contentsline {subsection}{\numberline {3.5}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{36}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Lichtintensit\IeC {\"a}tssensor}{37}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}BME280}{38}{subsubsection.3.5.2}
-\contentsline {subsection}{\numberline {3.6}Datenspeicherung}{39}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Datenspeicherung - Projekt 5}{39}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{40}{subsubsection.3.6.2}
-\contentsline {subsection}{\numberline {3.7}Kommunikationsmodule}{41}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}SIM808}{41}{subsubsection.3.7.1}
-\contentsline {subsection}{\numberline {3.8}Energieversorgung}{43}{subsection.3.8}
-\contentsline {subsubsection}{\numberline {3.8.1}Energiekonzept}{43}{subsubsection.3.8.1}
-\contentsline {subsubsection}{\numberline {3.8.2}Berechnung der Akkukapazit\IeC {\"a}t}{44}{subsubsection.3.8.2}
-\contentsline {subsubsection}{\numberline {3.8.3}Einfluss der Photovoltaik}{45}{subsubsection.3.8.3}
-\contentsline {subsubsection}{\numberline {3.8.4}ChargePump und Linearregler}{46}{subsubsection.3.8.4}
-\contentsline {subsection}{\numberline {3.9}PCB}{48}{subsection.3.9}
-\contentsline {subsubsection}{\numberline {3.9.1}Das Best\IeC {\"u}cken der Leiterplatte}{48}{subsubsection.3.9.1}
-\contentsline {subsubsection}{\numberline {3.9.2}M\IeC {\"a}ngel der Erstversion und dessen Verbesserungen}{49}{subsubsection.3.9.2}
-\contentsline {subsection}{\numberline {3.10}Das Geh\IeC {\"a}use}{51}{subsection.3.10}
-\contentsline {subsubsection}{\numberline {3.10.1}Wichtige Merkmale}{51}{subsubsection.3.10.1}
-\contentsline {subsubsection}{\numberline {3.10.2}Das Design}{52}{subsubsection.3.10.2}
-\contentsline {section}{\numberline {4}Abschluss}{59}{section.4}
-\contentsline {subsection}{\numberline {4.1}Konzeptvalidierung}{60}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Validierung der Hardware}{60}{subsubsection.4.1.1}
-\contentsline {subsection}{\numberline {4.2}Schluss}{62}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{63}{subsection.4.3}
-\contentsline {section}{Literatur}{64}{section*.73}
-\contentsline {section}{Tabellenverzeichnis}{65}{section*.74}
-\contentsline {section}{Abbildungsverzeichnis}{65}{section*.75}
-\contentsline {section}{Anhang}{69}{section*.76}
-\contentsline {section}{\numberline {A}Lastenheft}{70}{appendix.A}
-\contentsline {section}{\numberline {B}Aufgabenstellung}{71}{appendix.B}
-\contentsline {section}{\numberline {C}Lizenz-Texte}{72}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Adafruit\_BME280}{72}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}RTClib}{72}{subsection.C.2}
-\contentsline {section}{\numberline {D}Konzept Posterbild}{74}{appendix.D}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Einleitung}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Auftragsbeschreibung}{3}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Ziele}{4}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Projekt 5}{4}{subsubsection.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Projekt 6}{5}{subsubsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.4}Konzept}{6}{subsection.1.4}% 
+\contentsline {subsubsection}{\numberline {1.4.1}Sensoren}{7}{subsubsection.1.4.1}% 
+\contentsline {subsubsection}{\numberline {1.4.2}RTC}{7}{subsubsection.1.4.2}% 
+\contentsline {subsubsection}{\numberline {1.4.3}Datenspeicherung}{8}{subsubsection.1.4.3}% 
+\contentsline {subsubsection}{\numberline {1.4.4}Kommunikationsmodul}{8}{subsubsection.1.4.4}% 
+\contentsline {subsubsection}{\numberline {1.4.5}Energieversorgung}{9}{subsubsection.1.4.5}% 
+\contentsline {section}{\numberline {2}Firmware}{11}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Development Environment}{12}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}In-System-Programmer}{12}{subsubsection.2.1.1}% 
+\contentsline {subparagraph}{Zu Beachten:}{13}{section*.12}% 
+\contentsline {subsection}{\numberline {2.2}UML-Diagramm}{14}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Lizenzen}{15}{subsubsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.3}Validierung der Firmware}{16}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Manual}{17}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}USB-to-Computer}{17}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}SMS-Abfrage}{17}{subsubsection.2.4.2}% 
+\contentsline {section}{\numberline {3}Hardware}{19}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}\IeC {\"U}bersicht}{20}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}MCU}{24}{subsection.3.2}% 
+\contentsline {subsubsection}{\numberline {3.2.1}MCU - Projekt 5}{24}{subsubsection.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{25}{subsubsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.3}RTC}{26}{subsection.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.1}RTC - Projekt 5}{26}{subsubsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.4}Sensoren}{28}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Ombrometer - Projekt 5}{28}{subsubsection.3.4.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2}Anemometer - Projekt 5}{33}{subsubsection.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.3}Windrichtungsgeber - Projekt 5}{34}{subsubsection.3.4.3}% 
+\contentsline {subsubsection}{\numberline {3.4.4}BME280 - Projekt 5}{35}{subsubsection.3.4.4}% 
+\contentsline {subsection}{\numberline {3.5}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{36}{subsection.3.5}% 
+\contentsline {subsubsection}{\numberline {3.5.1}Lichtintensit\IeC {\"a}tssensor}{37}{subsubsection.3.5.1}% 
+\contentsline {subsubsection}{\numberline {3.5.2}BME280}{38}{subsubsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.6}Datenspeicherung}{39}{subsection.3.6}% 
+\contentsline {subsubsection}{\numberline {3.6.1}Datenspeicherung - Projekt 5}{39}{subsubsection.3.6.1}% 
+\contentsline {subsubsection}{\numberline {3.6.2}Erg\IeC {\"a}nzungen aus der Bachelor-Thesis}{40}{subsubsection.3.6.2}% 
+\contentsline {subsection}{\numberline {3.7}Kommunikationsmodule}{41}{subsection.3.7}% 
+\contentsline {subsubsection}{\numberline {3.7.1}SIM808}{41}{subsubsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.8}Energieversorgung}{43}{subsection.3.8}% 
+\contentsline {subsubsection}{\numberline {3.8.1}Energiekonzept}{43}{subsubsection.3.8.1}% 
+\contentsline {subsubsection}{\numberline {3.8.2}Berechnung der Akkukapazit\IeC {\"a}t}{44}{subsubsection.3.8.2}% 
+\contentsline {subsubsection}{\numberline {3.8.3}Einfluss der Photovoltaik}{45}{subsubsection.3.8.3}% 
+\contentsline {subsubsection}{\numberline {3.8.4}ChargePump und Linearregler}{46}{subsubsection.3.8.4}% 
+\contentsline {subsection}{\numberline {3.9}PCB}{48}{subsection.3.9}% 
+\contentsline {subsubsection}{\numberline {3.9.1}Das Best\IeC {\"u}cken der Leiterplatte}{48}{subsubsection.3.9.1}% 
+\contentsline {subsubsection}{\numberline {3.9.2}M\IeC {\"a}ngel der Erstversion und dessen Verbesserungen}{49}{subsubsection.3.9.2}% 
+\contentsline {subsection}{\numberline {3.10}Das Geh\IeC {\"a}use}{51}{subsection.3.10}% 
+\contentsline {subsubsection}{\numberline {3.10.1}Wichtige Merkmale}{51}{subsubsection.3.10.1}% 
+\contentsline {subsubsection}{\numberline {3.10.2}Das Design}{52}{subsubsection.3.10.2}% 
+\contentsline {section}{\numberline {4}Abschluss}{59}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Konzeptvalidierung}{60}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Validierung der Hardware}{60}{subsubsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.2}Schluss}{62}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Authentizit\IeC {\"a}tserkl\IeC {\"a}rung}{63}{subsection.4.3}% 
+\contentsline {section}{Literatur}{64}{section*.73}% 
+\contentsline {section}{Tabellenverzeichnis}{65}{section*.74}% 
+\contentsline {section}{Abbildungsverzeichnis}{65}{section*.75}% 
+\contentsline {section}{Anhang}{69}{section*.76}% 
+\contentsline {section}{\numberline {A}Lastenheft}{70}{appendix.A}% 
+\contentsline {section}{\numberline {B}Aufgabenstellung}{71}{appendix.B}% 
+\contentsline {section}{\numberline {C}Lizenz-Texte}{72}{appendix.C}% 
+\contentsline {subsection}{\numberline {C.1}Adafruit\_BME280}{72}{subsection.C.1}% 
+\contentsline {subsection}{\numberline {C.2}RTClib}{72}{subsection.C.2}% 
+\contentsline {section}{\numberline {D}Konzept Posterbild}{74}{appendix.D}% 
+\contentsline {section}{\numberline {E}Schema}{75}{appendix.E}% 
+\contentsline {section}{\numberline {F}PCB-Layout}{80}{appendix.F}% 

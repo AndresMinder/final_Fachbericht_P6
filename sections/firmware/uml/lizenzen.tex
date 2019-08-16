@@ -1,9 +1,7 @@
 \subsubsection{Lizenzen}
 \label{subsubsec:lizenzen}
 
-Die verwendeten Librarys sind grundsätzlich aus der Arduino IDE von Arduino. Arduino selbst ist eine aus Soft- und Hardware bestehende Physical-Computing-Plattform, bei welcher beide Komponenten auf Open-Source-Basis quelloffen sind \cite{arduinoWiki}. Nach Aussage von Arduino selbst, stehen alle C/C++ Mikrocontroller Librarys unter der \textbf{LGPL} \cite{ArduinoLicense2019}. Einige Lizenz-Texte stehen im Anhang \ref{sec:lizenztexte}. \\
-
-%Die RTClib steht unter der \textbf{MIT}-Lizenz, zusätzlich befindet sich noch der Lizenz-Text im Anhang \ref{subsec:rtclib_lizenztext}. Auch der Lizenz-Text der Adafruit_BME280 ist im Anhang \ref{subsec:adafruit_bme280_lizenztext}.\\
+Die verwendeten Librarys sind grundsätzlich aus der Arduino IDE von Arduino. Arduino selbst ist eine aus Soft- und Hardware bestehende Physical-Computing-Plattform, bei welcher beide Komponenten auf Open-Source-Basis quelloffen sind \cite{arduinoWiki}. Nach Aussage von Arduino selbst, stehen alle C/C++ Mikrocontroller Librarys unter der LGPL \cite{ArduinoLicense2019}. Alle Lizenzen, sowie auch die Autoren wurden aus dem Text in den Librarys selbst entnommen. All diese Lizenz- und Copyright-Texte wurden in den dementsprechenden Klassen oben hinzugefügt.\\
 
 \begin{table}[h]
 \centering
@@ -11,7 +9,7 @@ Die verwendeten Librarys sind grundsätzlich aus der Arduino IDE von Arduino. Ar
 \label{tab:lizenzen}
 \begin{tabular}{|l|l|l|}
 \hline 
-\textbf{Library} & \textbf{Author} & \textbf{Lizenz} \\ 
+\textbf{Library} & \textbf{Autor} & \textbf{Lizenz} \\ 
 \hline 
 Arduino & Arduino Team & LGPL V2.1 \\ 
 \hline 
@@ -35,4 +33,5 @@ Adafruit\_TSL2561\_U & Kevin Townsend & BSD \\
 \hline 
 \end{tabular} 
 \end{table}
-\todo[inline]{Schreiben: SD GPL wegen sdfatlib. Es hat da zwei drin, File.cpp und SD.cpp. JeeLabs angeben mit link http://news.jeelabs.org/code/. Die The Android Open Source Project hat bei Adafruit Sensor das Copyright. Vielleicht hinzuschreiben. Und zum schluss noch den Text überarbeiten.}
+
+Für die RTClib von JeeLabs wurde keine Lizenz gefunden. Es steht im Text lediglich \glqq \textit{Released to the public domain! Enjoy!}\grqq\,(siehe Klasse \_DS3231\_). Die SD-Library hat eine GPL weil auch die darin enthaltene \textit{sdfatlib} unter der GPL steht.\\

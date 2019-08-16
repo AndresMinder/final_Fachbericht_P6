@@ -10,10 +10,12 @@
 \end{figure}
 \end{landscape}
 
-Das in der Abbildung \ref{fig:uml_diagramm} dargestellte UML-Diagramm soll den Aufbau und die logischen Zusammenhänge der Firmware visualisieren. Darin wird gezeigt, welche Headerfiles bei den Klassen benötigt werden. Zudem sind die Attribute, wie auch die Funktionen mit ihren Access Specifier, Argumenten und Rückgabewerten aufgelistet. \\
+Das in der Abbildung \ref{fig:uml_diagramm} dargestellte UML-Diagramm soll den Aufbau und die logischen Zusammenhänge der Firmware visualisieren. Darin wird gezeigt, welche Headerfiles bei den Klassen benötigt werden. Zudem sind die Attribute, wie auch die Funktionen mit ihren Access Specifier, Argumenten und Rückgabewerten aufgelistet. Der Inhalt ist wegen der Skalierung etwas schwierig zu lesen. Deshalb könnte das UML-Diagramm aus dem beigelegten Berichtsordner im \textit{Fachbericht_P6/graphics/UML} auf der Internetseite \url{https://www.draw.io/} per \textit{Open Existing Diagram} geöffnet und genauer angeschaut werden.\\
 
-\todo[inline]{Text überarbeiten. Ausführlich kurz das Programm erläutern}
+Durch diese Struktur ist es möglich, adaptiv mehrere Komponenten hinzuzufügen und anzupassen. Zudem könnten somit auch mehrere Sensoren vom gleichen Typ ohne grossen weiteren Aufwand implementiert werden. Daher auch ein Vorteil des verwendeten I$^{2}$C-Interface.\\
 
-Durch diese Struktur ist es möglich, adaptiv mehrere Komponenten hinzuzufügen und anzupassen. Zudem könnten somit auch mehrere Sensoren vom gleichen Typ ohne grossen weiteren Aufwand implementiert werden.\\
+Alle Systemrelevanten Definitionen sind im Headerfile Sysdef.h definiert. Damit sind Werte, welche auf das gesamte Projekt übergreifen leicht änderbar.\\
+
+Im Zentrum des Programms steht die \textit{Main}. Sie enthält das Setup, sowie auch den Loop, welcher nach dem Setup kontinuierlich ausgeführt wird. Also äquivalent zu einer while(1){}. Als erstes werden alle Instanzen instanziert, danach im Setup alle an die MCU angeschlossenen Bauteile initialisiert. Der Loop in der Main hat in der aktuellen Implementierung drei Grundaufgaben zu erledigen. Als erstes muss er zeitlich über den DS3231 überprüfen, ob es wieder einen Messzeitpunkt gibt und dann darauffolgend gleich die Messdaten setzt und auf die $\mu$SD-Karte speichert. Zweitens muss er das Commandlineinterface betreiben, rsp. abragen, ob etwas per USB gesendet wurde. Anschließend je nach gültigem Command dann diesen verarbeiten und an die dementsprechende Klasse weiterleiten. Zum Schluss kommt noch die Abrage über eine empfangene SMS. Dafür wurde eine ISR (Interrupt Service Routine) implementiert, welche einen bool smsavailable auf true setzt. Falls dies geschieht, wird aus der SMS der Sender und die Nachricht/Command ausgelesen. Dann werden die zuletzt gespeicherten Daten zurückgesendet und das empfangene SMS wieder gelöscht um wieder Platz zu generieren.\\
 
 \input{sections/firmware/uml/lizenzen}

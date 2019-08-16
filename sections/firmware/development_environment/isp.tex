@@ -50,31 +50,40 @@ Da die $\mu$SD-Karte auf dem Target Board auch über das SPI Interface an den Mi
 \label{para:device_programming}
 Um auf das Target (Wetterstation) das Programm flashen zu könenn, müssen noch einige Dinge berücksichtigt werden. In diesem Kapitel wird das wichtigste in Kürze für das Device Programming erklärt. Die folgende Bildabfolge (Abb. \ref:{fig:deviceprogramming} bis \ref{fig:flashing}) soll den Ablauf veranschaulicht erklären und aufzeigen, worauf geachtet werden muss.\\
 
-\todo[inline]{In diesem Kapitel noch auf die Bilder eingehen.}
+Als erstes muss das Device Programming über die Menübar \textit{Tools/Device Programming} geöffnet werden (Abb. \ref{fig:deviceprogramming}).\\
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{../../../graphics/device_programming/1.PNG}
 \caption{Auswahl Device Programming}
 \label{fig:deviceprogramming}
 \end{figure}
+Wenn der AVR Dragon bereits per USB an den Computer angeschlossen wurde, dann sollte dieser bei Tool (oben links) auswählbar sein. Als Device selbst muss der ATmega2560 gewählt werden. Dies ist vom verwendeten Mikrocontroller abhängig. Das Programmier Interface ist ISP. In der Abbildung \ref{einstellung des ispclocks} ist noch zu sehen, dass der ISP Clock (Flash-Geschwindigkeit) einstellbar ist. Dieser sollte maximal einem Viertel der operierenden Taktfrequenz des Mikrocontrollers sein. In diesem Fall bei 8MHz Taktfrequenz also 2MHz.\\
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{../../../graphics/device_programming/2.PNG}
 \caption{Einstellung des ISP Clocks}
 \label{fig:einstellung des ispclocks}
 \end{figure}
+Für die Fuse Register (Abb. \ref{fig:fuseregister}) ist zu beachten, dass der Clockdivider \textit{LOW.CHKDIV8} abgewählt ist. Beim Kauf des Chips ist dieser oft default mässig eingeschaltet. Da auf dem Target ein externer Oscillator verwendet wird, muss auch dies hier angegeben werden. Dafür das Fuse Register \textit{LOW.SUT_CKSEL} auf einen externen Crystal Oscillator von 3.0 bis 8.0 MHz stellen. Anstatt alle Häckchen einzeln zu setzen, könnten die Values der Fuse Register auch direkt per Hexadezimalzahl angegeben werden. Somit werden alles nötige übernommen. Zum Schluss noch mit \textit{Program} bestätigen. Es können problemlos die Factory Settings überschrieben werden.\\
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{../../../graphics/device_programming/3.PNG}
 \caption{Fuse Register}
 \label{fig:fuseregister}
 \end{figure}
+In der Abb. \ref{fig:lockbits} werden die Lock Bits gezeigt. Hier muss lediglich darauf geachtet werden, dass keine Lock Bits gesetzt werden. Das Lock Bit Register also auf 0xFF einstellen.\\
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{../../../graphics/device_programming/4.PNG}
 \caption{Lock Bits}
 \label{fig:lockbits}
 \end{figure}
+Jetzt kann das geschriebene Programm auf den Mikrocontroller geflashed werden. Von Vorteil ist es, das Häckchen für \textit{Erase device before programming} zu setzen. Ansonsten muss dies jedes mal manuell vor dem Flashen durchgeführt werden. Zum Flashen den Button \textit{Program} drücken.\\
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{../../../graphics/device_programming/5.PNG}
